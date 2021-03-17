@@ -35,7 +35,8 @@ git commit -m 'Change'
 
 echo -e "\n\n### Pushing to GitHub ###\n\n"
 
-bkp
+git push
+
 
 
 
