@@ -1,5 +1,7 @@
 #!/bin/bash
 
+cd /Users/kry.davidek/Documents/vysoka-skola/kisk-bakalarka-prace/kisk-bakalarka
+
 echo -e "\n\n### Converting Markdown to LaTeX ###\n\n"
 
 rm tex/*
@@ -18,10 +20,10 @@ for FILE in markdown/*.md; do
   sed -ie 's/\\textless{}\$\\rightarrow\$/\$\\leftrightarrow\$/g' "${FILE%.md}.tex"
 
   sed -ie 's/\\chapter{Úvod}\\label{uxfavod}/'\
-'\\chapter\*{Úvod}\\label{uvod}\n\\addcontentsline{toc}{chapter}{Úvod}/g' "${FILE%.md}.tex"
+'\\chapter\*{Úvod}\\label{uvod}\\n\\addcontentsline{toc}{chapter}{Úvod}/g' "${FILE%.md}.tex"
 
   sed -ie 's/\\chapter{Závěr}\\label{zuxe1vux11br}/'\
-'\\chapter\*{Závěr}\\label{zaver}\n\\addcontentsline{toc}{chapter}{Závěr}/g' "${FILE%.md}.tex"
+'\\chapter\*{Závěr}\\label{zaver}\\n\\addcontentsline{toc}{chapter}{Závěr}/g' "${FILE%.md}.tex"
 
 
   rm "${FILE%.md}.texe"
