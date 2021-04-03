@@ -1,5 +1,3 @@
-# Úvod
-
 Návrh a implementace online kurzu pro výuku datové analytiky
 Design and implementation of an online course for teaching data analytics
  
@@ -8,11 +6,24 @@ Design and implementation of an online course for teaching data analytics
 Předkládaná bakalářská práce si klade za cíl navrhnout a implementovat online vzdělávací kurz, který se zaměřuje na výuku základů datové analytiky. Práce se dělí do dvou hlavních částí – teoretické a praktické. V první částí je představen koncept datové analytiky spolu s přehledovou studií již existujících, primárně zahraničních online kurzů zaměřených na související téma. Jejím cílem je zmapovat aktuální stav online kurzů vzniklých primárně v zahraničním prostředí a prostřednictvím předem jasně definovaných parametrů tyto kurzy klasifikovat. Praktická část se následně skládá z popisu vlastního řešení, které tak částečně vychází z výsledků provedené přehledové studie. Implementace kurzu probíhala za spolupráce s firmou Digiskills, pro jejichž potřeby a převážně jejich klienty byl tento kurz navržen. Pro zpracování online kurzu byly využity interní webové šablony firmy, všechny zbylé vzdělávací materiály byly vytvořený exkluzivně pro kurz jako takový.
 
 ---
+The table \ref{table:1} is an example of referenced \LaTeX elements.
 
-|Hlavička 1  |Hlavička 2  |
-|--|--|
-| Element 1 | Element 2 |
-
+\begin{table}[h!]
+\centering
+\begin{tabular}{||c c c c||} 
+ \hline
+ Datová analytika & Datová analytika & Datová analytika & Datová analytika \\ [0.5ex] 
+ \hline\hline
+ Datová analytika & Datová analytika & Datová analytika & Datová analytika \\ 
+ 2 & 7 & 78 & 5415 \\
+ 3 & 545 & 778 & 7507 \\
+ Datová analytika & Datová analytika & Datová analytika & Datová analytika Datová analytika Datová analytika Datová analytika \\
+ 5 & 88 & 788 & 6344 \\ [1ex] 
+ \hline
+\end{tabular}
+\caption{Table to test captions and labels}
+\label{table:1}
+\end{table}
 
 Úvod
 
