@@ -5,39 +5,22 @@ Design and implementation of an online course for teaching data analytics
 
 Předkládaná bakalářská práce si klade za cíl navrhnout a implementovat online vzdělávací kurz, který se zaměřuje na výuku základů datové analytiky. Práce se dělí do dvou hlavních částí – teoretické a praktické. V první částí je představen koncept datové analytiky spolu s přehledovou studií již existujících, primárně zahraničních online kurzů zaměřených na související téma. Jejím cílem je zmapovat aktuální stav online kurzů vzniklých primárně v zahraničním prostředí a prostřednictvím předem jasně definovaných parametrů tyto kurzy klasifikovat. Praktická část se následně skládá z popisu vlastního řešení, které tak částečně vychází z výsledků provedené přehledové studie. Implementace kurzu probíhala za spolupráce s firmou Digiskills, pro jejichž potřeby a převážně jejich klienty byl tento kurz navržen. Pro zpracování online kurzu byly využity interní webové šablony firmy, všechny zbylé vzdělávací materiály byly vytvořený exkluzivně pro kurz jako takový.
 
----
-The table \ref{table:1} is an example of referenced \LaTeX elements.
+\section*{Annotation}
 
-\begin{table}[h!]
-\centering
-\caption{Multicolumn table}
-\begin{tabular}{ |p{3cm}||p{3cm}|p{3cm}|p{3cm}|  }
- \hline
- \multicolumn{4}{|c|}{Country List} \\
- \hline
- Country Name	 or Area Name& ISO ALPHA 2 Code	&ISO ALPHA 3 Code&ISO numeric Code\\
- \hline
- Afghanistan	& AF	&AFG&	004\\
- Aland Islands&	AX	& ALA	&248\\
- Albania	&AL	& ALB&	008\\
- Algeria	&DZ	& DZA&	012\\
- American Samoa&	AS	& ASM&016\\
- Andorra&	AD	& AND	&020\\
- Angola&	AO	& AGO&024\\
-  \hline
- \end{tabular}
- \label{table:1}
- \end{table}
+---
 
 Úvod
 
 Teoretická část
 
- Datová analytika – co to je?
+Datová analytika
 	Datová gramotnost
-	Přístupy k datové analytice
+		Vztah k informační gramotnosti
+		Modely datové gramotnosti
+	Digitální gramotnost
+	Kompetence datového analytika
 Přehledová studie
-	Charakteristika přehledové studie – motivace
+	Charakteristika přehledové studie – motivace a její rozsah
 	1.	Motivace za výběrem daného kurzu
 	2.	Tabulka s předem definovanými parametry:
 		a.	Název kurzu
@@ -66,3 +49,9 @@ Obsah modulů
 Výsledky uživatelského testování???
 
 Závěr
+
+Text1. \parencite{digicomp17}
+
+Text2. \parencite{workshop16}
+
+Text3. \parencite{ecdl17}
