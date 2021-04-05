@@ -9,7 +9,7 @@ rm tex/*
 for FILE in markdown/*.md; do
   pandoc ${FILE} -o "${FILE%.md}.tex"
   vlna -r -l -v KkSsVvZzOoUuAaIi "${FILE%.md}.tex"
-  sed -ie 's/\s\\parencite/~\\parencite/g' "${FILE%.md}.tex"
+  sed -ie 's/ [ \n]*\\parencite/~\\parencite/g' "${FILE%.md}.tex"
   sed -ie 's/\\section/\\chapter/g' "${FILE%.md}.tex"
   sed -ie 's/\\subsection/\\section/g' "${FILE%.md}.tex"
   sed -ie 's/\\subsubsection/\\subsection/g' "${FILE%.md}.tex"
