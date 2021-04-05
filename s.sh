@@ -7,9 +7,9 @@ echo -e "\n\n### Converting Markdown to LaTeX ###\n\n"
 rm tex/*
 
 for FILE in markdown/*.md; do
-  pandoc ${FILE} -o "${FILE%.md}.tex"
+  pandoc --wrap=none ${FILE} -o "${FILE%.md}.tex"
   vlna -r -l -v KkSsVvZzOoUuAaIi "${FILE%.md}.tex"
-  sed -ie 's/[[:space:]]*\\parencite/~\\parencite/g' "${FILE%.md}.tex"
+  sed -ie 's/[[:space:]][[:space:]]*\\parencite/~\\parencite/g' "${FILE%.md}.tex"
   sed -ie 's/\\section/\\chapter/g' "${FILE%.md}.tex"
   sed -ie 's/\\subsection/\\section/g' "${FILE%.md}.tex"
   sed -ie 's/\\subsubsection/\\subsection/g' "${FILE%.md}.tex"
