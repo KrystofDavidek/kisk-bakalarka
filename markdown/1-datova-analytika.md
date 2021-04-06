@@ -2,7 +2,7 @@
 
 # Datová analytika
 
-Ústředním tématem této práce je fenomén datové analytiky, jejímž význačným rysem je vágnost přesné definice, protože se na ni v odlišných prostředích a kontextech nahlíží různým pohledem dle daných potřeb. Abychom byli schopni provést systematickou přehledovou studii online kurzů zabývajících se touto problematikou a zároveň mohli při návrhu vlastního e-learningového řešení vycházet z určitého kompetenčního rámce, se v této kapitole pokusíme tuto disciplínu zarámovat do konceptu datové gramotnosti. Ve druhé části této sekce se pak zaměříme na konkrétní kompetence, jež jsou součástí datové analytiky, a z nichž budeme v dalších částech vycházet.
+Ústředním tématem této práce je fenomén datové analytiky, jejímž význačným rysem je vágnost přesné definice, protože se na ni v odlišných prostředích a kontextech nahlíží různým pohledem dle daných potřeb. Abychom byli schopni provést systematickou přehledovou studii online kurzů zabývajících se touto problematikou a zároveň mohli při návrhu vlastního e-learningového řešení vycházet z určitého kompetenčního rámce, se v této kapitole pokusíme tuto disciplínu zarámovat do konceptu datové a digitální gramotnosti. Ve druhé části této sekce se pak zaměříme na konkrétní kompetence, jež jsou součástí datové analytiky, a z nichž budeme v dalších částech vycházet.
 
 ## Datová gramotnost
 
@@ -30,4 +30,10 @@ Prováznost informační a datové gramotnosti můžeme dále najít ve standard
 - etická manipulace s daty spolu s jejich zpracováním;
 - prezentace výsledků získaných ze zpracovaných dat.
 
-V literatuře se lze dále setkat s konceptem *Data information literacy* (DIL), který sice úzce souvisí s informační (resp. datovou) gramotností, nicméně se s ním pracuje primárně v rámci zpracování vědeckých a vzdělávacích dat. \parencite{jeffryes13} Jde tedy především o kompetence spojené se správou výzkumných dat, nicméně i v této oblasti lze najít přesahy do některých podoblastí popsaných výše. Například s problematikou vizualizace dat lze pracovat jak v DIL, tak i na úrovní ostatních kompetenčních rámců, jimž může být třeba již zmíněný standard *Information literacy competency standards for higher education*. \parencite{womack14}
+V literatuře se lze dále setkat s konceptem *Data information literacy* (DIL), který sice úzce souvisí s informační (resp. datovou) gramotností, nicméně se s ním pracuje primárně v rámci zpracování vědeckých a vzdělávacích dat. \parencite{jeffryes13} Jde tedy především o kompetence spojené se správou výzkumných dat, nicméně i v této oblasti lze najít přesahy do některých podoblastí popsaných výše.
+
+Například s problematikou vizualizace dat lze pracovat jak v DIL, tak i na úrovní ostatních kompetenčních rámců, jimž může být třeba již zmíněný standard *Information literacy competency standards for higher education*. Resp. jednotlivé moduly tohoto standardu v sobě implicitně obsahují témata související s vizualizací dat – najít je můžeme konkrétně ve druhém (posouzení), třetím (evaluace) a primárně čtvrtém (využití) modulu. Důležitým aspektem je pak pasivní přítomnost tohoto tématu napříč kompetencemi, protože ku příkladu ve druhém modulu se předpokládá, že právě ten jedinec, který se dokáže vyznat a orientovat ve vizuálně laděných informací, může splňovat širší kompetenci týkající se správného zhodnocení informací. \parencite{womack14}
+
+Věříme proto, že jsme schopni naprostou většinu témat, ze kterých sestává oblast datové analytiky (např. již zmíněná vizualizace dat) hledat právě v těchto standardech, a je z nich tedy možné v obecnějším pojetí vycházet.
+
+## Digitální gramotnost
