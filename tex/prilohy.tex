@@ -1,7 +1,6 @@
 \hypertarget{prilohy}{%
 \chapter*{Seznam příloh}\label{prilohy}\addcontentsline{toc}{chapter}{Seznam příloh}}
 
-\input{assets/tex/table1}
 \bash[stdoutFile=inputs.tex]
 { shopt -s nullglob; for file in assets/tex/*.tex; do echo "\\input{$file}"; done; } 
 \END
