@@ -10,10 +10,22 @@ V rámci anotace popisujeme základní cíle spolu s obsahem kurzu a ve stručno
 
 ### Tabulka s parametry
 
-Hlavní částí analýzy u každého z online kurzů je tabulka s předem definovanými parametry, která systematicky uvádí základní informace a přehledným způsobem. Viz tabulka \ref{tab1}.
+Hlavní částí analýzy u každého z online kurzů je tabulka s předem definovanými parametry, která systematicky uvádí základní informace a přehledným způsobem znázorňuje charakteristiku daného kurzu. Níže uvádíme seznam vybraných parametrů:
+
+ - název;
+ - použitá platforma;
+ - datum vzniku;
+ - specifikace obsahu kurzu (jaká témata kurz reflektuje);
+ - časová náročnost;
+ - způsob práce s hodnocením a úkoly;
+ - rozsah;
+ - forma ukončení;
+ - začlenění do kompetenčního modelu;
+ - použité technologie.
 
 ### Popis integrovaných prvků
 
+Poslední složkou přehledu je popis prvků, které jsme se rozhodli integrovat do našeho praktického řešení. V této části se nevážeme pouze na jednotlivá témata či použité nástrojů, ale všímáme si také zvolených edukačních prostředků. Může jít tedy například o způsoby průběžného ověřování znalosti a dovedností, zvolené aktivizační metody za účelem větší interaktivity nebo možnosti získávání zpětné vazby na jednotlivé obsahové moduly. Tyto prvky nám dále poslouží k návrhu zbývajících částí online kurzu a případě k redesignu stávajících komponent.
 
 https://www.coursera.org/learn/data-analytics-business?authMode=signup#syllabus
 
