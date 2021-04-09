@@ -1,3 +1,3 @@
 # Přehledová studie
 
-\include{../assets/tex/table1}
+\input{assets/tex/table1}
