@@ -2,13 +2,17 @@
 
 ## Charakteristika přehledové studie
 
-V této kapitole teoretické části se budeme zabývat již existujícími online kurzy, které se určitým způsobem soustředí na problematiku datové analytiky či alespoň zpracovávají některou z jejích vybraných kompetencí. Našim cílem je v této sekci systematicky kategorizovat významná e-learningová řešení a na základě této klasifikace vytvořit určitou formu přehledové studie\footnote{Je si však zapotřebí uvědomit, že svojí povahou je tato bakalářská práce nejblíže aplikační kvalifikační práci, jejímž cílem bylo vytvořit funkční online kurz, z tohoto důvodu nelze považovat tuto přehledovou studii za plnohodnotnou výzkumnou studii, tak jak je uváděna v odborné literatuře \parencite{mares2013}.}. Každý zpracovaný online kurz sestává ze tří oddělených ale vzájemně doplňujících se částí.
+V této kapitole teoretické části se budeme zabývat již existujícími online kurzy, které se určitým způsobem soustředí na problematiku datové analytiky či alespoň zpracovávají některou z jejích vybraných kompetencí. Našim cílem je v této sekci systematicky kategorizovat významná e-learningová řešení a na základě této klasifikace vytvořit určitou formu přehledové studie\footnote{Je si však zapotřebí uvědomit, že svojí povahou je tato bakalářská práce nejblíže aplikační kvalifikační práci, jejímž cílem bylo vytvořit funkční online kurz, z tohoto důvodu nelze považovat tuto přehledovou studii za plnohodnotnou výzkumnou studii, tak jak je uváděna v odborné literatuře \parencite{mares2013}.}. Každý zpracovaný online kurz sestává ze tří oddělených ale vzájemně se doplňujících částí.
 
- **Anotace kurzu spolu odůvodněním výběru**
- 
-**Tabulka s parametry**
+### Anotace kurzu s odůvodněním výběru
 
-**Popis prvků, které jsme integrovali do našeho praktického řešení**
+V rámci anotace popisujeme základní cíle spolu s obsahem kurzu a ve stručnosti charakterizujeme platformu, na níž je daný kurz umístěn. Dále se snažíme zdůvodnit, proč jsme daný kurz vybrali a pokusíme se jej začlenit do některých z konceptů informační či datové gramotností, případně do dalších kompetenčních rámců.  
+
+### Tabulka s parametry
+
+Hlavní částí analýzy u každého z online kurzů je tabulka s předem definovanými parametry, která systematicky uvádí základní informace a přehledným způsobem. Viz tabulka \ref{tab1}.
+
+### Popis integrovaných prvků
 
 
 https://www.coursera.org/learn/data-analytics-business?authMode=signup#syllabus
