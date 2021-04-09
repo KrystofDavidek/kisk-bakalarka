@@ -20,7 +20,7 @@ Hlavní částí analýzy u každého z online kurzů je tabulka s předem defin
  - způsob práce s hodnocením a úkoly;
  - rozsah;
  - forma ukončení;
- - začlenění do kompetenčního modelu;
+ - začlenění do kompetenčního rámce;
  - použité technologie.
 
 ### Popis integrovaných prvků
