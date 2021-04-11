@@ -67,6 +67,17 @@ I přes to, že svým praktickým pojetím tento kurz značně přesahuje potře
 
 Druhý významný přínos je pro nás ve srozumitelném představení základních příkladů, kdy můžeme datovou analytiku využít na dennodenní bází mimo běžné pracovní prostředí – věříme, že integrací těchto modelových příkladů můžeme motivovat studující k průchodu kurzu.
 
-### Data Literacy Project
+### Data Literacy Project – Overview of Data Literacy, Data Fundamentals
 
-Zkouška \parencite{course3}.
+Třetí analyzovaný e-learning není ani tak přímo jeden jediný online kurz, nýbrž jde o kolekci většího množství online materiálů. Jedná se o *Data Literacy Project*, vzdělávací platformu pod záštitou organizace Qlik, která si klade za cíl edukovat veřejnost v oblasti datové gramotnosti. Tento projekt přichází se svým vlastním pojetím datové gramotnosti a člení ji do několika oddělených kurzů – pro nás jsou relevantní primárně tyto dvě oblasti/kurzy:
+
+ -  Overview of Data Literacy;
+	 - Why Analytics?;
+	 - A Culture of Data Literacy;
+	 - Data Literacy Adoption;
+	 - Data Storytelling;
+ - Data Fundamentals;
+	 - Understanding Data;
+	 - Understanding Aggregations;
+	 - Understanding Distributions.
+
