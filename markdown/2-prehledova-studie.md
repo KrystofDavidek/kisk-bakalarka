@@ -63,6 +63,10 @@ Pro naše účely je však důležitá primárně první lekce, jež se zabývá
 
 #### Integrované prvky
 
-I přes to, že svým praktickým pojetím tento kurz značně přesahuje potřeby, které jsou kladeny na naše vlastní řešení, lze využít použitého konceptu procesu datové analytiky. Autoři kurzu tímto způsobem efektivně vydělili a zpracovali jednotlivé kroky, které vedou k úspěšnému provedení datové analytiky – my tak můžeme pro naši praktickou část podobně použít obsah dokumentů *ECDL / ICDL Data Analytics SYLABUS 1.0 (AM8)* (viz \ref{kompetenux10dnuxed-ruxe1mec} a přetvořit jej do podobně strukturované podoby, jako byla použita v tomto kurzu.
+I přes to, že svým praktickým pojetím tento kurz značně přesahuje potřeby, které jsou kladeny na naše vlastní řešení, lze využít použitého konceptu procesu datové analytiky. Autoři kurzu tímto způsobem efektivně vydělili a zpracovali jednotlivé kroky, které vedou k úspěšnému provedení datové analytiky – my tak můžeme pro naši praktickou část podobně použít obsah dokumentů *ECDL / ICDL Data Analytics SYLABUS 1.0 (AM8)* (viz kapitola \ref{kompetenux10dnuxed-ruxe1mec}) a přetvořit jej do podobně strukturované podoby, jako byla použita v tomto kurzu.
 
 Druhý významný přínos je pro nás ve srozumitelném představení základních příkladů, kdy můžeme datovou analytiku využít na dennodenní bází mimo běžné pracovní prostředí – věříme, že integrací těchto modelových příkladů můžeme motivovat studující k průchodu kurzu.
+
+### Data Literacy Project
+
+Zkouška \parencite{course3}.
