@@ -33,7 +33,7 @@ Poslední složkou přehledu je popis prvků, které jsme se rozhodli integrovat
 
 #### Anotace
 
-Kurz *Introduction to Data Analytics for Business* na platformě Coursera je součástí širší specializace pod názvem *Advanced Business Analytics Specialization* a je zprostředkován pod záštitou University of Colorado Boulder. Tento kurz je úvodní částí zmíněné specializace a jeho cílem je popsat základní principy datové analytiky v podnikovém prostředí. Obsah kurzu se velkou mírou soustředí na integraci datové analytiky do procesů určité organizace a na konkrétních příkladech ukazuje, proč je důležité tuto oblast reflektovat na individuální úrovni ve smyslu zavádění analytických technik do vlastí pracovních mikroprocesů, a tím zvyšovat celo-organizační efektivitu. Kurz každopádně nezůstává pouze u teoretických základů, ale v pozdějších částech pracuje s využitím konkrétních nástrojů a představuje základní analytické techniky na úrovni relačních databází a dotazovacího jazyku SQL. \parencite{course1}
+Kurz *Introduction to Data Analytics for Business*\footnote{Systematickou analýzu kurzu uvádíme v tabulce s parametry viz Tabulka \ref{tab1}.} na platformě Coursera je součástí širší specializace pod názvem *Advanced Business Analytics Specialization* a je zprostředkován pod záštitou University of Colorado Boulder. Tento kurz je úvodní částí zmíněné specializace a jeho cílem je popsat základní principy datové analytiky v podnikovém prostředí. Obsah kurzu se velkou mírou soustředí na integraci datové analytiky do procesů určité organizace a na konkrétních příkladech ukazuje, proč je důležité tuto oblast reflektovat na individuální úrovni ve smyslu zavádění analytických technik do vlastí pracovních mikroprocesů, a tím zvyšovat celo-organizační efektivitu. Kurz každopádně nezůstává pouze u teoretických základů, ale v pozdějších částech pracuje s využitím konkrétních nástrojů a představuje základní analytické techniky na úrovni relačních databází a dotazovacího jazyku SQL. \parencite{course1}
 
 Struktura kurzu je tvořena čtyřmi na sebe navazujícími sekcemi: 
 
@@ -44,10 +44,25 @@ Struktura kurzu je tvořena čtyřmi na sebe navazujícími sekcemi:
 
 Tento kurz jsme do našeho výběru zahrnuli jednak proto, že se jedná o jeden z nejlépe hodnocených kurzů na platformě Coursera zabývající se našim tématem, a jednak z toho důvodu, že se nezaměřuje pouze na představení konkrétního analytického nástroje, ale snaží se reflektovat motivaci, která je příčinou pro využívání datové analytiky v podnikovém prostředí.
 
-Systematickou analýzu kurzu uvádíme v tabulce s parametry viz Tabulka \ref{tab1}.
-
 #### Integrované prvky
 
 Za hodnotnou část tohoto kurzu vnímáme primárně teoretičtější téma využití datové analytiky v podnikovém prostředí – konkrétně jde tedy o první a čtvrtý modul. Autoři kurzu totiž přehledným způsobem vysvětlují datovou analytiku jakožto nutnou součást firemních procesů, které začínají u samotných jednotlivců a časem přesahují do dalších pater dané organizace. Tuto část pokládáme ze velmi důležitou a pokusíme se ji tak začlenit do úvodních částí našeho vlastního kurzu. 
 
 Druhou složkou, jež bychom rádi nějakým způsobem integrovali, je koncept jednoho komplexního úkolů, na němž studenti po celou dobu studia pracují. V tomto případě šlo sice o úkol, který se nacházel až v posledním modulu, nicméně sestával ze všech předcházejících dovedností a pracoval s reálným podnikovým modelem. Rádi bychom tedy i vlastní studenty pobídli k práci na jednom větším projektu, který se skládá ze vzájemně na sebe navazujících části a který je co nejvíce přibližuje k reálnému prostředí určité organizace.
+
+### Intro to Data Analysis
+
+#### Anotace
+
+Druhý analyzovaný kurz je součástí většího balíku kurzů na online platformě Udacity, které společně tvoří takzvaný *Data Analyst Nanodegree*. Jedná se o ucelený celek vzdělávacích kurzů, které si kladou za cíl vzdělat studenta na požadovanou 
+úroveň v dané oblasti pro účely větší konkurenceschopnosti na trhu práce. Výhodou toho programu je nabytí praktické zkušenosti s konkrétními analytickými nástroji a technikami, nicméně to vše za cenu poměrně vysokého finančního poplatku.
+
+My se každopádně zaměřujeme na kurz *Intro to Data Analysis*\footnote{Systematickou analýzu kurzu uvádíme v tabulce s parametry viz Tabulka \ref{tab2}.}, který je bezplatným úvodním seznámením s tématem datové analytiky v rámci celé této specializace. I přesto je však tento kurz zaměřen převážně prakticky, protože se sám dělí ještě do tří vzájemně navazujících lekcí (spolu se závěrečným úkolem), z nichž se právě dvě zabývají poměrně pokročilými nástroji (jde o programovací jazyk Python a jeho dvě knihovny používané pro statistické účely Numpy a Pandas).
+
+Pro naše účely je však důležitá primárně první lekce, jež se zabývá kontextualizací datové analytiky jakožto samostatné disciplíny a která přehledným způsobem demonstruje všechny potřebné složky, které jsou součástí procesu datové analytiky. V pojetí tohoto prakticky zaměřeného kurzu jde tedy o: *question* (jaký problém chceme analýzou řešit), *wrangle* (přístup k datům a jejich čištění), *explore* (vlastní explorativní analýza na základě očištěných dat), *draw conclusions* (získání nové informace) a *communicate* (komunikace výsledné informace prostřednictvím vizualizace). \parencite{course2}
+
+#### Integrované prvky
+
+I přes to, že svým praktickým pojetím tento kurz značně přesahuje potřeby, které jsou kladeny na naše vlastní řešení, lze využít použitého konceptu procesu datové analytiky. Autoři kurzu tímto způsobem efektivně vydělili a zpracovali jednotlivé kroky, které vedou k úspěšnému provedení datové analytiky – my tak můžeme pro naši praktickou část podobně použít obsah dokumentů *ECDL / ICDL Data Analytics SYLABUS 1.0 (AM8)* (viz \ref{kompetenux10dnuxed-ruxe1mec} a přetvořit jej do podobně strukturované podoby, jako byla použita v tomto kurzu.
+
+Druhý významný přínos je pro nás ve srozumitelném představení základních příkladů, kdy můžeme datovou analytiku využít na dennodenní bází mimo běžné pracovní prostředí – věříme tak, že integrací těchto modelových příkladů můžeme motivovat studující k průchodu kurzu.
