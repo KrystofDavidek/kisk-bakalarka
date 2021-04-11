@@ -87,4 +87,16 @@ Tento kurz jsme vybrali hlavně ze dvou důvodu. Jednak proto, že zpracovává 
 
 #### Integrované prvky
 
-Pro návrh vlastního e-learningového řešení můžeme z tohoto projektu využít části týkající se datově orientované organizace, protože lze tímto konceptem zastřešit důležitost vzdělávání v oblasti datové gramotnosti a analytiky v podnikovém prostředí. Taktéž můžeme převzít příklady, na nichž autoři kategorizovali jednotlivé typy dat, a tím demonstrovat různorodost analytických technik, kterou jsou ve vztahu právě s daným datovým typem. 
+Pro návrh vlastního e-learningového řešení můžeme z tohoto projektu využít části týkající se datově orientované organizace, protože lze pod tímto konceptem zastřešit důležitost vzdělávání v oblasti datové gramotnosti a analytiky v podnikovém prostředí. Taktéž můžeme převzít příklady, na nichž autoři kategorizovali jednotlivé typy dat, a tím demonstrovat různorodost analytických technik, kterou jsou závislé na určitý typ dat.
+
+### Essentials of Data Literacy
+
+#### Anotace
+
+Kurz * Essentials of Data Literacy*\footnote{Systematickou analýzu kurzu uvádíme v tabulce s parametry viz Tabulka \ref{tab4}.} spadá do rodiny online kurzů platformy edX a je součástí profesionální certifikátu *Fundamentals of Data Visualization with Power BI*. Již z názvu certifikátu je patrné, že se jedná o ryze praktický kurz, jehož cílem je studenty naučit efektivně analyzovat a vizualizovat data a na základě nich komunikovat určitou informaci. Obsahově je kurz zaměřen spíše na akademické prostředí, protože se snaží pobídnout studenty a další akademické pracovníky z různých oborů k datově orientovanému stylu práce nehledě na studovaný obor. Autoři kurzu představují koncept životního cyklu informace, který se skládá z šesti cyklicky opakujících se fází – definování otázky, sběr a organizace dat, čištění dat, explorace a vizualizace dat, analýza a interpretace dat, komunikace prostřednictvím nasbíraných dat. Tohle teoretické pojetí umožňuje autorům dále pracovat s jednotlivými fázemi v praktičtější rovině, protože se po zbytek kurzu věnují problematice zpracování dat v programovacím jazyce R \parencite{course4}.
+
+Hodnotu tohoto e-learningového řešení spatřujeme primárně ve funkční provázanosti teoretického rámce s praktickými sekcemi – autoři kurzu tak mají naprostou většinu úkolů zdůvodněnou konkrétními potřebami a dokážou díky výše zmíněnému rámci pěkně kontextualizovat zdánlivě nesouvisející oblasti.
+
+#### Integrované prvky
+
+Jak bylo výše poznamenáno, tento kurz je příkladem správného koncepčního uvažování při návrhu vzdělávacích materiálů, kdy autoři nejprve dbaly na úvodní motivaci a teorii, kterou postupně funkčními přístupy (přehlednými autentickými videy a srozumitelnými textovými materiály) transformovali do praktických úkolů. Rádi bychom tak využili tohoto přístupu při návrhu vlastního řešení a soustředili se na neustále propojování nově nabytých dovednosti/znalosti s těmi, které jim buď předcházely nebo se mají teprve objevit.  
