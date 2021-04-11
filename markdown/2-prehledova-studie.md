@@ -99,4 +99,12 @@ Hodnotu tohoto e-learningového řešení spatřujeme primárně ve funkční pr
 
 #### Integrované prvky
 
-Jak bylo výše poznamenáno, tento kurz je příkladem správného koncepčního uvažování při návrhu vzdělávacích materiálů, kdy autoři nejprve dbaly na úvodní motivaci a teorii, kterou postupně funkčními přístupy (přehlednými autentickými videy a srozumitelnými textovými materiály) transformovali do praktických úkolů. Rádi bychom tak využili tohoto přístupu při návrhu vlastního řešení a soustředili se na neustále propojování nově nabytých dovednosti/znalosti s těmi, které jim buď předcházely nebo se mají teprve objevit.  
+Jak bylo výše poznamenáno, tento kurz je příkladem správného koncepčního uvažování při návrhu vzdělávacích materiálů, kdy autoři nejprve dbaly na úvodní motivaci a teorii, kterou postupně funkčními přístupy (přehlednými autentickými videy a srozumitelnými textovými materiály) transformovali do praktických úkolů. Rádi bychom tak využili tohoto přístupu při návrhu vlastního řešení a soustředili se na neustále propojování nově nabytých dovednosti/znalosti s těmi, které jim buď předcházely nebo se mají teprve objevit. 
+
+### Analyzing and Visualizing Data with Power BI
+
+### Introduction to Data Analytics
+
+### Excel Basics for Data Analysis
+
+### Data Analysis with Excel for Complete Beginners
