@@ -25,7 +25,13 @@ Hlavní částí analýzy u každého z online kurzů je tabulka s předem defin
 
 ### Popis integrovaných prvků
 
-Poslední složkou přehledu je popis prvků, které jsme se rozhodli integrovat do našeho praktického řešení. V této části se nevážeme pouze na jednotlivá témata či použité nástrojů, ale všímáme si také zvolených edukačních prostředků. Může jít tedy například o způsoby průběžného ověřování znalosti a dovedností, zvolené aktivizační metody za účelem větší interaktivity nebo možnosti získávání zpětné vazby na jednotlivé obsahové moduly. Tyto prvky nám dále poslouží k návrhu zbývajících částí online kurzu a případě k redesignu stávajících komponent.
+Poslední složkou přehledu je popis prvků, které jsme se rozhodli integrovat do našeho praktického řešení. V této části se nevážeme pouze na jednotlivá témata či použité nástroje, ale všímáme si také zvolených edukačních prostředků. Může jít tedy například o způsoby průběžného ověřování znalosti a dovedností, zvolené aktivizační metody za účelem větší interaktivity nebo možnosti získávání zpětné vazby na jednotlivé obsahové moduly. Tyto prvky nám dále poslouží k návrhu zbývajících částí online kurzu a případě k redesignu stávajících komponent.
+
+## Online kurzy
+
+### Introduction to Data Analytics for Business
+
+První kurzu se zabývá datovou analytikou. \parencite{course1}
 
 https://www.coursera.org/learn/data-analytics-business?authMode=signup#syllabus
 
