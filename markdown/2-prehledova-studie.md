@@ -37,10 +37,10 @@ Kurz *Introduction to Data Analytics for Business*\footnote{Systematickou analý
 
 Struktura kurzu je tvořena čtyřmi na sebe navazujícími sekcemi: 
 
- - *Data and Analysis in the Real World*;
- - *Analytical Tools*;
- - *Data Extraction Using SQL*;
- - *Real World Analytical Organizations*.
+ - Data and Analysis in the Real World;
+ - Analytical Tools;
+ - Data Extraction Using SQL;
+ - Real World Analytical Organizations.
 
 Tento kurz jsme do našeho výběru zahrnuli jednak proto, že se jedná o jeden z nejlépe hodnocených kurzů na platformě Coursera zabývající se našim tématem, a jednak z toho důvodu, že se nezaměřuje pouze na představení konkrétního analytického nástroje, ale snaží se reflektovat motivaci, která je příčinou pro využívání datové analytiky v podnikovém prostředí.
 
@@ -69,7 +69,9 @@ Druhý významný přínos je pro nás ve srozumitelném představení základn�
 
 ### Data Literacy Project – Overview of Data Literacy, Data Fundamentals
 
-Třetí analyzovaný e-learning není ani tak přímo jeden jediný online kurz, nýbrž jde o kolekci většího množství online materiálů. Jedná se o *Data Literacy Project*, vzdělávací platformu pod záštitou organizace Qlik, která si klade za cíl edukovat veřejnost v oblasti datové gramotnosti. Tento projekt přichází se svým vlastním pojetím datové gramotnosti a člení ji do několika oddělených kurzů – pro nás jsou relevantní primárně tyto dvě oblasti/kurzy:
+#### Anotace
+
+Třetí analyzovaný e-learning není ani tak přímo jeden jediný online kurz, nýbrž jde o kolekci většího množství online materiálů. Jedná se o *Data Literacy Project*\footnote{Systematickou analýzu kurzu uvádíme v tabulce s parametry viz Tabulka \ref{tab3}.}, vzdělávací platformu pod záštitou organizace Qlik, která si klade za cíl edukovat veřejnost v oblasti datové gramotnosti. Tento projekt přichází se svým vlastním pojetím datové gramotnosti a člení ji do několika oddělených podkurzů – pro nás jsou relevantní primárně tyto dvě oblasti (v terminologii projektu se s nimi pracuje právě na úrovní jednotlivých subkurzů):
 
  -  Overview of Data Literacy;
 	 - Why Analytics?;
@@ -81,3 +83,8 @@ Třetí analyzovaný e-learning není ani tak přímo jeden jediný online kurz,
 	 - Understanding Aggregations;
 	 - Understanding Distributions.
 
+Tento kurz jsme vybrali hlavně ze dvou důvodu. Jednak proto, že zpracovává určitá dílčí témata datové analytiky v kontextu datové gramotnosti (např. charakteristiku dat jakožto objektů, kterými se datová analytika zabývá) a jednak z toho důvodu, že   originálním způsobem představuje možnosti datové gramotnosti a analytiky v organizacích. Resp. jsou v online materiálech zevrubně popsány jednotlivé kroky (ty na sebe cyklicky navazují – plánování a vize, komunikace, zhodnocení, vzdělávání s evaluace), kterými se je zapotřebí řídit, chceme-li svoji organizaci nebo podnik přetvořit v datově orientované prostředí, kde se rozhodnutí vytváří na datově podloženém základě.
+
+#### Integrované prvky
+
+Pro návrh vlastního e-learningového řešení můžeme z tohoto projektu využít části týkající se datově orientované organizace, protože lze tímto konceptem zastřešit důležitost vzdělávání v oblasti datové gramotnosti a analytiky v podnikovém prostředí. Taktéž můžeme převzít příklady, na nichž autoři kategorizovali jednotlivé typy dat, a tím demonstrovat různorodost analytických technik, kterou jsou ve vztahu právě s daným datovým typem. 
