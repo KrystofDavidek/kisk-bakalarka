@@ -22,7 +22,7 @@ Další částí analýzy u každého z online kurzů je tabulka s předem defin
  - začlenění do kompetenčního rámce;
  - použité technologie.
 
-### Popis integrovaných prvků
+### Popis využitých prvků
 
 Poslední složkou přehledu je popis prvků, které jsme se rozhodli integrovat do našeho praktického řešení. V této části se nevážeme pouze na jednotlivá témata či použité nástroje, ale všímáme si také zvolených edukačních prostředků. Může jít tedy například o způsoby průběžného ověřování znalosti a dovedností, zvolené aktivizační metody za účelem větší interaktivity nebo možnosti získávání zpětné vazby na jednotlivé obsahové moduly. Tyto prvky nám dále poslouží k návrhu vlastních vzdělávacích modulů našeho online kurzu, případně k redesignu již existujících komponent.
 
@@ -43,7 +43,7 @@ Struktura kurzu je tvořena čtyřmi na sebe navazujícími sekcemi:
 
 Tento kurz jsme do našeho výběru zahrnuli jednak proto, že pracuje s konceptem jednoho komplexního úkolů napříč různými tématy, na němž si studenti mají možnost vyzkoušet všechny potřebné metody, a jednak z toho důvodu, že se nezaměřuje pouze na představení konkrétních analytických nástrojů, ale snaží se reflektovat motivaci, která je příčinou pro využívání datové analytiky v podnikovém prostředí.
 
-#### Integrované prvky
+#### Využité prvky
 
 Za hodnotnou část tohoto kurzu vnímáme primárně teoretičtější téma využití datové analytiky v podnikovém prostředí – konkrétně jde tedy o první a čtvrtý modul. Autoři kurzu totiž přehledným způsobem vysvětlují datovou analytiku jakožto nutnou součást firemních procesů, které začínají u samotných jednotlivců a časem přesahují do vyšších pater dané organizace. Tuto část pokládáme ze velmi důležitou a pokusíme se ji tak začlenit do úvodních částí našeho vlastního kurzu. 
 
@@ -60,7 +60,7 @@ My se každopádně zaměřujeme na kurz *Intro to Data Analysis*\footnote{Syste
 
 Pro naše účely je však důležitá primárně první lekce, jež se zabývá kontextualizací datové analytiky jakožto samostatné disciplíny a která přehledným způsobem demonstruje všechny potřebné složky, které jsou součástí procesu datové analytiky. V pojetí tohoto prakticky zaměřeného kurzu jde tedy o: *question* (jaký problém chceme analýzou řešit), *wrangle* (přístup k datům a jejich čištění), *explore* (vlastní explorativní analýza na základě očištěných dat), *draw conclusions* (získání nové informace) a *communicate* (komunikace výsledné informace prostřednictvím vizualizace) \parencite{course2}.
 
-#### Integrované prvky
+#### Využité prvky
 
 I přes to, že svým praktickým pojetím tento kurz značně přesahuje potřeby, které jsou kladeny na naše vlastní řešení, lze využít použitého konceptu procesu datové analytiky. Autoři kurzu tímto způsobem efektivně vydělili a zpracovali jednotlivé kroky, které vedou k úspěšnému provedení datové analytiky – my tak můžeme pro naši praktickou část podobně použít obsah dokumentů *ECDL / ICDL Data Analytics SYLABUS 1.0 (AM8)* (viz kapitola \ref{kompetenux10dnuxed-ruxe1mec}) a přetvořit jej do podobně strukturované podoby, jako byla použita v tomto kurzu.
 
@@ -84,7 +84,7 @@ Třetí analyzovaný e-learning není ani tak přímo jeden jediný online kurz,
 
 Tento kurz jsme vybrali hlavně ze dvou důvodů. Jednak proto, že zpracovává určitá dílčí témata datové analytiky v kontextu datové gramotnosti (např. charakteristiku dat jakožto objektů, kterými se datová analytika zabývá) a jednak z toho důvodu, že   originálním způsobem představuje možnosti datové gramotnosti a analytiky v organizacích. Resp. jsou v online materiálech zevrubně popsány jednotlivé kroky (ty na sebe cyklicky navazují – plánování a vize, komunikace, zhodnocení, vzdělávání s evaluace), kterými se je zapotřebí řídit, chceme-li svoji organizaci nebo podnik přetvořit v datově orientované prostředí, kde se rozhodnutí vytváří na datově podloženém základě.
 
-#### Integrované prvky
+#### Využité prvky
 
 Pro návrh vlastního e-learningového řešení můžeme z tohoto projektu využít části týkající se datově orientované organizace, protože lze pod tímto konceptem zastřešit důležitost vzdělávání v oblasti datové gramotnosti a analytiky v podnikovém prostředí. Taktéž můžeme převzít příklady, na nichž autoři charakterizovali jednotlivé typy dat, a tím demonstrovat různorodost analytických technik, které jsou závislé na určitém typu dat.
 
@@ -96,7 +96,7 @@ Kurz *Essentials of Data Literacy*\footnote{Systematickou analýzu kurzu uvádí
 
 Hodnotu tohoto e-learningového řešení spatřujeme primárně ve funkční provázanosti teoretického rámce s praktickými sekcemi – autoři kurzu tak mají naprostou většinu úkolů zdůvodněnou konkrétními potřebami a dokážou díky výše zmíněnému rámci pěkně kontextualizovat zdánlivě nesouvisející oblasti.
 
-#### Integrované prvky
+#### Využité prvky
 
 Jak bylo výše poznamenáno, tento kurz je příkladem správného koncepčního uvažování při návrhu vzdělávacích materiálů, kdy autoři nejprve dbaly na úvodní motivaci a teorii, kterou postupně funkčními přístupy (přehlednými autentickými videy a srozumitelnými textovými materiály) transformovali do praktických úkolů. Rádi bychom tak využili tohoto přístupu při návrhu vlastního řešení a soustředili se na neustále propojování nově nabytých dovednosti/znalosti s těmi, které jim buď předcházely nebo se mají teprve objevit. 
 
