@@ -2,7 +2,11 @@
 
 ## Charakteristika přehledové studie
 
-Ve druhé kapitole teoretické části se budeme zabývat již existujícími online kurzy, které se určitým způsobem soustředí na problematiku datové analytiky či alespoň zpracovávají některou z jejích vybraných kompetencí. Našim cílem je v této sekci systematicky kategorizovat významná e-learningová řešení a na základě této klasifikace vytvořit určitou formu přehledové studie\footnote{Je si však zapotřebí uvědomit, že svojí povahou je tato bakalářská práce nejblíže aplikační kvalifikační práci, jejímž cílem bylo vytvořit funkční online kurz, z tohoto důvodu nelze považovat tuto přehledovou studii za plnohodnotnou výzkumnou studii, tak jak je uváděna v odborné literatuře \parencite{mares2013}.}. Každý zpracovaný online kurz  (vybírali jsme pouze takové kurzy, s jejichž obsahem se dá alespoň částečně bezplatně pracovat, a mají tedy nějakou podobu otevřeného přístupu) sestává ze tří oddělených ale vzájemně se doplňujících částí.
+Ve druhé kapitole teoretické části se budeme zabývat již existujícími online kurzy, které se určitým způsobem soustředí na problematiku datové analytiky či alespoň zpracovávají některou z jejích vybraných kompetencí. Našim cílem je v této sekci systematicky kategorizovat významná e-learningová řešení a na základě této klasifikace vytvořit určitou formu přehledové studie\footnote{Je si však zapotřebí uvědomit, že svojí povahou je tato bakalářská práce nejblíže aplikační kvalifikační práci, jejímž cílem bylo vytvořit funkční online kurz, z tohoto důvodu nelze považovat tuto přehledovou studii za plnohodnotnou výzkumnou studii, tak jak je uváděna v odborné literatuře \parencite{mares2013}.}.
+
+Výsledky získané z této přehledové studie posléze využijeme k návrhu jednotlivých částí našeho online kurzu, který je zaměřen na výuku základů datové analytiky primárně v podnikovém prostředí (vlastní řešení konkrétněji rozvádíme v praktické části této práce).
+
+Každý zpracovaný online kurz  (vybírali jsme pouze takové kurzy, s jejichž obsahem se dá alespoň částečně bezplatně pracovat, a mají tedy nějakou podobu otevřeného přístupu) sestává ze tří oddělených ale vzájemně se doplňujících částí.
 
 ### Anotace kurzu s odůvodněním výběru
 
@@ -96,7 +100,7 @@ Kurz *Essentials of Data Literacy*\footnote{Systematickou analýzu kurzu uvádí
 
 Hodnotu tohoto e-learningového řešení spatřujeme primárně ve funkční provázanosti teoretického rámce s praktickými sekcemi – autoři kurzu tak mají naprostou většinu úkolů zdůvodněnou konkrétními potřebami a dokážou díky výše zmíněnému rámci pěkně kontextualizovat zdánlivě nesouvisející oblasti.
 
-#### Využité prvky
+#### Integrované prvky
 
 Jak bylo výše poznamenáno, tento kurz je příkladem správného koncepčního uvažování při návrhu vzdělávacích materiálů, kdy autoři nejprve dbaly na úvodní motivaci a teorii, kterou postupně funkčními přístupy (přehlednými autentickými videy a srozumitelnými textovými materiály) transformovali do praktických úkolů. Rádi bychom tak využili tohoto přístupu při návrhu vlastního řešení a soustředili se na neustále propojování nově nabytých dovednosti/znalosti s těmi, které jim buď předcházely nebo se mají teprve objevit. 
 
