@@ -100,11 +100,26 @@ Kurz *Essentials of Data Literacy*\footnote{Systematickou analýzu kurzu uvádí
 
 Hodnotu tohoto e-learningového řešení spatřujeme primárně ve funkční provázanosti teoretického rámce s praktickými sekcemi – autoři kurzu tak mají naprostou většinu úkolů zdůvodněnou konkrétními potřebami a dokážou díky výše zmíněnému rámci pěkně kontextualizovat zdánlivě nesouvisející oblasti.
 
-#### Integrované prvky
+#### Využité prvky
 
 Jak bylo výše poznamenáno, tento kurz je příkladem správného koncepčního uvažování při návrhu vzdělávacích materiálů, kdy autoři nejprve dbaly na úvodní motivaci a teorii, kterou postupně funkčními přístupy (přehlednými autentickými videy a srozumitelnými textovými materiály) transformovali do praktických úkolů. Rádi bychom tak využili tohoto přístupu při návrhu vlastního řešení a soustředili se na neustále propojování nově nabytých dovednosti/znalosti s těmi, které jim buď předcházely nebo se mají teprve objevit. 
 
 ### Analyzing and Visualizing Data with Power BI
+
+Další zpracovaný kurz *Analyzing and Visualizing Data with Power BI*\footnote{Systematickou analýzu kurzu uvádíme v tabulce s parametry viz Tabulka \ref{tab5}.} svojí formou částečně souvisí s předcházejícím kurzem, jelikož je taktéž součástí zmíněného profesního certifikátu. Obsahově se ale týká odlišené oblasti, protože komplexním způsobem zpracovává téma datové analytiky (je zde patrný překryv s *business analytics*) v kontextu analytického nástroje Power BI. Kurz je tedy navržen primárně s ohledem na praktickou stránku věci a studenta tak provází celkovou tvorbou interaktivních dashboardů. Tento přístup je ale zároveň výhodou i nevýhodu současně. Na jednu stranu kurz sice nabízí ucelený přehled funkcionalit jednoho konkrétního nástroje, ale na stranu druhou opomíjí skutečnost, že vybraný analytický nástroj Power BI je závislý pouze na systémech s operačním systémem Windows a může být tak problematické využít tyto nabízené dovednosti i v jiných prostředích. \parencite{course5}
+
+Obsahově se kurz dělí do čtyř na sebe navazujících částí:
+
+- Getting Started – stručný úvod a základní seznámení s importem a čištěním dat;
+- Sports Analytics and Global Economic Indicators – pokročilé techniky čištění dat a základní vizualizační techniky;
+- Personal Finance – pokročilé analytické funkce, základní statistické metody a pokročilé vizualizační techniky;
+- Power BI Service and Mobile App – kontextualizace s jinými nástroji, komplexní zadání závěrečné práce.
+
+Tento kurz jsme vybrali hlavně kvůli jeho podobě a použitým vzdělávacích prvkům, za hodnotnou složku tedy primárně považujeme formu, jakou představuje určitou práci s praktickým nástrojem. Autorský tým dokázal prostřednictvím edukačních videí přehledným způsobem krok za krokem představovat základní principy softwaru Power BI a posouvat tak studentovy dovednosti a znalosti stále ke složitějším manipulacím s daty.
+
+#### Využité prvky
+
+I přes to, že se náš vlastní online kurz nemá vázat na jeden konkrétní analytický nástroj, chceme v hlavní části demonstrovat základní principy datové analytiky na základě praktických ukázek. Nevyhneme se proto práci s nějakým často používaným softwarem. Z tohoto důvodu můžeme využít přístup tohoto e-learningového řešení k předávání praktických dovedností prostřednictvím video materiálů. Jak bylo výše zmíněno, tento kurz kvalitní formou představuje základní i pokročilé techniky v Power BI, my se tak v praktické části můžeme inspirovat některými prvky jako jsou například interaktivní kvízy, které doplňují obsah videí, nebo kombinací snímání obrazovky a krátkých přednášek lektora apod.
 
 ### Introduction to Data Analytics
 
