@@ -84,7 +84,7 @@ Třetí analyzovaný e-learning není ani tak přímo jeden jediný online kurz,
  - Data Fundamentals;
 	 - Understanding Data;
 	 - Understanding Aggregations;
-	 - Understanding Distributions.
+	 - Understanding Distributions \parencite{course3}.
 
 Tento kurz jsme vybrali hlavně ze dvou důvodů. Jednak proto, že zpracovává určitá dílčí témata datové analytiky v kontextu datové gramotnosti (např. charakteristiku dat jakožto objektů, kterými se datová analytika zabývá) a jednak z toho důvodu, že   originálním způsobem představuje možnosti datové gramotnosti a analytiky v organizacích. Resp. jsou v online materiálech zevrubně popsány jednotlivé kroky (ty na sebe cyklicky navazují – plánování a vize, komunikace, zhodnocení, vzdělávání s evaluace), kterými se je zapotřebí řídit, chceme-li svoji organizaci nebo podnik přetvořit v datově orientované prostředí, kde se rozhodnutí vytváří na datově podloženém základě.
 
@@ -108,8 +108,7 @@ Jak bylo výše poznamenáno, tento kurz je příkladem správného koncepčníh
 
 #### Anotace
 
-Další zpracovaný kurz *Analyzing and Visualizing Data with Power BI*\footnote{Systematickou analýzu kurzu uvádíme v tabulce s parametry viz Tabulka \ref{tab5}.} svojí formou částečně souvisí s předcházejícím kurzem, jelikož je taktéž součástí zmíněného profesního certifikátu. Obsahově se ale týká odlišené oblasti, protože komplexním způsobem zpracovává téma datové analytiky (je zde patrný překryv s *business analytics*) v kontextu analytického nástroje Power BI. Kurz je tedy navržen primárně s ohledem na praktickou stránku věci a studenta tak provází celkovou tvorbou interaktivních dashboardů. Tento přístup je ale zároveň výhodou i nevýhodu současně. Na jednu stranu kurz sice nabízí ucelený přehled funkcionalit jednoho konkrétního nástroje, ale na stranu druhou opomíjí skutečnost, že vybraný analytický nástroj Power BI je závislý pouze na systémech s operačním systémem Windows a může být tak problematické využít tyto nabízené dovednosti i v jiných prostředích. \parencite{course5}
-
+Další zpracovaný kurz *Analyzing and Visualizing Data with Power BI*\footnote{Systematickou analýzu kurzu uvádíme v tabulce s parametry viz Tabulka \ref{tab5}.} svojí formou částečně souvisí s předcházejícím kurzem, jelikož je taktéž součástí zmíněného profesního certifikátu. Obsahově se ale týká odlišené oblasti, protože komplexním způsobem zpracovává téma datové analytiky (je zde patrný překryv s *business analytics*) v kontextu analytického nástroje Power BI. Kurz je tedy navržen primárně s ohledem na praktickou stránku věci a studenta tak provází celkovou tvorbou interaktivních dashboardů. Tento přístup je ale zároveň výhodou i nevýhodu současně. Na jednu stranu kurz sice nabízí ucelený přehled funkcionalit jednoho konkrétního nástroje, ale na stranu druhou opomíjí skutečnost, že vybraný analytický nástroj Power BI je závislý pouze na systémech s operačním systémem Windows a může být tak problematické využít tyto nabízené dovednosti i v jiných prostředích \parencite{course5}. 
 Obsahově se kurz dělí do čtyř na sebe navazujících částí:
 
 - Getting Started – stručný úvod a základní seznámení s importem a čištěním dat;
@@ -125,8 +124,28 @@ I přes to, že se náš vlastní online kurz nemá vázat na jeden konkrétní 
 
 ### Introduction to Data Analytics
 
-Další analyzovaný online kurz *Introduction to Data Analytics*\footnote{Systematickou analýzu kurzu uvádíme v tabulce s parametry viz Tabulka \ref{tab6}.} spadá pod platformu Coursera a je součástí čtyř na sebe navazujících e-learningů, které jsou zarámované profesním certifikátem *IBM Data Analyst Professional Certificate* (certifikát se snaží reflektovat požadavky na pracovní trh, které dle predikci předpovídají až 20\% nárust 
+Další analyzovaný online kurz *Introduction to Data Analytics*\footnote{Systematickou analýzu kurzu uvádíme v tabulce s parametry viz Tabulka \ref{tab6}.} spadá pod platformu Coursera a je součástí čtyř na sebe navazujících e-learningů, které jsou zarámované profesním certifikátem *IBM Data Analyst Professional Certificate* (certifikát se snaží reflektovat požadavky na pracovní trh, u něhož se dle predikcí předpovídá do roku 2028 až 20\% nárust pozic spojených s datovou analytikou\footnote{https://www.coursera.org/professional-certificates/ibm-data-analyst}). Tento kurz je úvodní částí a zaměřuje se tak na základní teoretické koncepty týkající se datové analytiky. Velký důraz klade na popis role datového analytika – snaží se popsat co je náplní jeho práce (a zároveň tuto roli představuje v kontextu dalších pracovních rolí jako jsou data scientist a data engineer) a představuje s jakými nástroji a technikami by měl být schopen pracovat \parencite{course6}.
+
+Ve druhé části je pak přehlednou formou vysvětlen proces datové analytiky skládající se z:
+
+- identifikace zdrojů dat a jejich sběr;
+- čištění a vlastní analýza dat;
+- tvorba vizualizací a komunikace dat.
+
+I přes to, že se kurz v některých podkapitolách zaměřuje na praktická témata (primárně u jednotlivých částí procesu, ale i třeba při popisu využívaných nástrojů), nedemonstruje žádné techniky zpracování dat na konkrétních příkladech. Představuje tedy obecně platné principy, které je zapotřebí brát do úvahy při vlastní praxi, a právě díky této nezávislosti na konkrétnímu nástroji, jsme tento kurz začlenili do našeho výběru.
+
+#### Využité prvky
+
+Autoři kurzu si dali záležet na častém používání doprovodných kvízů téměr po každé samostatné obsahové části. Jelikož považujeme za důležité pracovat s neustálou aktivizací studujícího, můžeme využít některých již vytvořených kvízu a adaptovat je na naše konkrétní potřeby. Druhou významnou složkou, kterou bychom určitým způsobem integrovali do našeho řešení, je právě srozumitelné vysvětlení role datového analytika v rámci pracovního trhu a porovnání jeho profesní náplně s příbuznými oblastmi.
 
 ### Excel Basics for Data Analysis
 
+#### Anotace
+
+#### Využité prvky
+
 ### Data Analysis with Excel for Complete Beginners
+
+#### Anotace
+
+#### Využité prvky
