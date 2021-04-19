@@ -142,10 +142,27 @@ Autoři kurzu si dali záležet na častém používání doprovodných kvízů 
 
 #### Anotace
 
+Předposlední vybraný kurz s názvem *Excel Basics for Data Analysis*\footnote{Systematickou analýzu kurzu uvádíme v tabulce s parametry viz Tabulka \ref{tab7}.} je druhým kurzem zmíněného profesního certifikátu *IBM Data Analyst Professional Certificate* a jak je z jeho názvu patrné, zabývá se datovou analytikou v kontextu nástroje Microsoft Excel. Na rozdíl od předcházejícího e-learningu se tedy jedná o ryze praktický kurz, který je ale podobně zaměřen na úplné nováčky v oboru (zároveň autoři konstatují, že není určen pouze pro podnikové analytiky, ale mohou z něj těžit i další profese, které se zabývají nějakou formou analýzy dat, například vědci nebo marketingový specialisté apod.). Kurz studenta provádí všemi potřebnými tématy, jež jsou součástí procesu datové analytiky, a prostřednictvím online sdíleného datasetu pobízí studujícího k aplikovanému učení \parencite{course7}. Kurz jako celek rozdělen do těchto modulů:
+
+ - Introduction to Data Analysis Using Spreadsheets;
+ - Getting Started with Using Excel Speadsheets;
+ - Cleaning & Wrangling Data Using Spreadsheets;
+ - Analyzing Data Using Spreadsheets.
+
+Tento kurz jsme do našeho přehledu zahrnuli z toho důvodu, že zpracovává problematiku datové analytiky v takovém nástroji, který je ve většině prostředí dostupný (zvláště jeho bezplatná webová podoba, případně varianta od firmy Google Google Sheets) a hojně využívaný. Taktéž je v tomto řešení srozumitelným způsobem na praktických příkladech představeno téma kontingenčních tabulek\footnote{Stručné představení problematiky – https://courses.lumenlearning.com/odessa-introstats1-1/chapter/contingency-tables/}, které je součástí i jiných analytických nástrojů a lze jej považovat za důležitou oblast (mírně pokročilejší) analýzy dat. 
+
 #### Využité prvky
+
+Jelikož se jedná o druhý převážně prakticky orientovaný online kurz, který je do určité míry závislý na konkrétním nástroji, můžeme tak vzájemně porovnat oba přístupy k praktické výuce (druhý kurzem je *Analyzing and Visualizing Data with Power BI* viz \ref{analyzing-and-visualizing-data-with-power-bi} a vybrat právě ty, které nám budou dávat větší smysl.
+
+Zároveň se zde můžeme inspirovat závěrečným úkolem, konkrétně tedy vybraným datasetem a složitostí, která je na studenty při jeho zpracování kladena. 
 
 ### Data Analysis with Excel for Complete Beginners
 
 #### Anotace
 
+Posledním zpracovaným kurzem je *Data Analysis with Excel for Complete Beginners*\footnote{Systematickou analýzu kurzu uvádíme v tabulce s parametry viz Tabulka \ref{tab8}.}, který je umístěn na platformě FutureLearn. I přes to, že se jedná o placený kurz (kromě 7denní zkušební doby není možní provést ani audit kurzu), jsme se jej rozhodli do naší analýzy začlenit, protože reflektuje taková témata, která v probraných kurzech ještě nebyla dostatečně dobře pokryta. Online kurz má sice ve svém názvu konkrétní nástroj, jeho obsah se ale spíše týká obecných aspektů spojených s datovou analytikou. Konkrétně se kurz zabývá tématy jako jsou například *Our Data-Driven World*, *Data Fluency*, *Data Anatomy* nebo *Data Ethics* – to jsou podle nás důležité oblasti, které by měl i sebe praktičtější kurz alespoň částečně reflektovat, ať už v úvodní motivaci či v závěrečném shrnutí \parencite{course8}.
+
 #### Využité prvky
+
+Pokud tedy odhlédneme od spíše fragmentálněji pojaté praktické části zabývající se analytickými metodami, můžeme náš vlastní převážně praktický kurz obohatit o taková témata, která se v online kurzech ne tak často objevují. Konkrétně popis povahy dat a jejich význam ve společnosti nebo problematiku datové etiky bychom rádi do některých modulů vložili a studentům alespoň rámcově představili.
