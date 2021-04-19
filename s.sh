@@ -8,6 +8,7 @@ rm tex/*
 
 for FILE in markdown/*.md; do
   pandoc --wrap=none ${FILE} -o "${FILE%.md}.tex"
+  vlna -r -l -v KkSsVvZzOoUuAaIi assets/tex/*
   vlna -r -l -v KkSsVvZzOoUuAaIi "${FILE%.md}.tex"
   sed -ie 's/[[:space:]][[:space:]]*\\parencite/~\\parencite/g' "${FILE%.md}.tex"
   sed -ie 's/\\section/\\chapter/g' "${FILE%.md}.tex"
