@@ -18,7 +18,7 @@ Samotný kurz\footnote{V ekosystému kurzů firmy Digiskills se komplexnějs�
 
 ## Cíl
 
-Při definování hlavního vzdělávacího cíle vycházíme z revidované Bloomovy taxonomie kognitivních vzdělávacích cílů, která je přehledným způsobem uvedena v \cite{vavra11} na základě kritiky... 
+Při definování hlavního vzdělávacího cíle vycházíme z revidované Bloomovy taxonomie kognitivních vzdělávacích cílů, která je přehledným způsobem uvedena v \textcite{vavra11} na základě kritiky... 
 
 Hlavní cíl kurzu se dá vydělit do dvou hlavních dílčích cílů:
 
