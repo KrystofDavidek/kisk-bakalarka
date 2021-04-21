@@ -18,11 +18,11 @@ Samotný kurz\footnote{V ekosystému kurzů firmy Digiskills se komplexnějs�
 
 ## Cíl
 
-Při definování hlavního vzdělávacího cíle vycházíme z revidované Bloomovy taxonomie kognitivních vzdělávacích cílů, která byla představena v roce 2001 a jež se více přibližuje konstruktivistickému charakteru vzdělávání \parencite{vavra11}.
+Při definování hlavního vzdělávacího cíle vycházíme z revidované Bloomovy taxonomie kognitivních vzdělávacích cílů, která byla představena v roce 2001 a jež se více přibližuje konstruktivistickému charakteru vzdělávání \parencite{bloom2}. 
 
 Hlavní cíl kurzu se dá vydělit do dvou hlavních dílčích cílů:
 
  1. student si je po skončení kurzu vědom, co je to datová analytika a proč je důležité znát základní principy a metody této disciplíny;
- 2. studující po skončení kurzu vědět, z čeho skládá proces datové analytiky a dokáže na základě těchto znalostí provést základní .
+ 2. studující po skončení kurzu vědět, z čeho skládá proces datové analytiky a dokáže na základě těchto znalostí provést základní.
 
 ## Kompetence
