@@ -18,13 +18,17 @@ Samotný kurz\footnote{V ekosystému kurzů firmy Digiskills se komplexnějs�
 
 Při definování hlavního vzdělávacího cíle vycházíme z revidované Bloomovy taxonomie kognitivních vzdělávacích cílů, která byla představena v roce 2001 a jež se více přibližuje konstruktivistickému charakteru vzdělávání \parencite{bloom2}. Na rozdíl od svého předchůdce z roku 1956 tato revidovaná taxonomie mimo jiné popisuje dimenze kognitivních procesů prostřednictvím činných sloves (a nikoliv pomocí podstatných jmen, jak tomu bylo dříve), u nichž dále nabízí konkrétní alternativní pojmenování a vymezení. Druhou podstatnou změnou je přesun hierarchicky nejvyšší kategorie *hodnotit* (v původní taxonomii *hodnocení*) pod novou kategorii *tvořit*, která zase vychází z původní kategorie *syntéza* \parencite{vavra11}.
 
-Obecný cíl kurzu se týká primárně dvou oblastí, v rámci kterých můžeme dále vyčlenit dílčí cíle:
+Obecný cíl kurzu se týká primárně dvou oblastí, v rámci kterých můžeme dále vyčlenit dílčí cíle.
 
-- Teoretická část – témata diskutující základní terminologii a motivaci spojenou s datovou analytikou a úvod do problematiky týkající se dat;
-	1. Tohle je první cíl
-	2. Tohle je druhý cíl
-- Praktická část bla bla student si je po skončení kurzu vědom, co je to datová analytika a proč je důležité znát základní principy a metody této disciplíny;
-	1. první studující po skončení kurzu vědět, z čeho skládá proces datové analytiky a dokáže na základě těchto znalostí provést základní.
-	2. druhý cíl.
+- Teoretická část – témata diskutující základní terminologii a motivaci spojenou s datovou analytikou spolu s úvodem do problematiky týkající se dat:
+	1. student je schopen ilustrovat na fiktivním příkladu důležitost datové analytiky v modelovém prostředí určité organizace;
+	2. student je schopen rozlišit významy pojmů vztahující se k datové analytice a k příbuzným disciplínám;
+	3. student je schopen kategorizovat jednotlivé typy dat a základní datové formáty používané v rámci tabulkových dat.
+- Praktická část – témata týkající se jednotlivých částí procesu datové analytiky spolu s výčtem dalších analytických nástrojů:
+	4. student je schopen vysvětlit, z jakých částí se skládá proces datové analytiky a zdůvodnit existenci jednotlivých části;
+	5. student je schopen použít základní techniky importování dat nehledě na využívaný nástroj;
+	6. student je schopen identifikovat chyby v datech a dovede tyto problémy řádně opravit;
+	7. student je schopen propojit jednotlivé části dat a vytvořit na základě nich určité vztahy;
+	8. student je schopen  
 
 ## Kompetence
