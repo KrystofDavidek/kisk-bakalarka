@@ -5,7 +5,7 @@
 
 Ve druhé části této bakalářské práce se budeme zabývat představením vlastního online kurzu zaměřeného na výuku základů datové analytiky. Ve dvou následujících kapitolách si popíšeme návrh a~implementaci našeho e-learningu z~hlediska dvou různých rovin, a~to konceptuální a~strukturální.
 
-Našim cílem v~této praktické části bude tedy jednak uvést motivaci a~cíle vztahující se k~tvorbě nového online kurzu, ale také přehledným způsobem popsat, z~jakých komponent se náš kurz skládá a~jaké vzdělávací prvky obsahuje. Na závěr také představíme jednotlivé obsahové moduly a~zarámujeme je do revidované Bloomovy taxonomie vzdělávacích cílů.
+Našim cílem v~této praktické části bude tedy jednak uvést motivaci a~cíle vztahující se k~tvorbě online kurzu, ale také přehledným způsobem popsat, z~jakých komponent se náš kurz skládá a~jaké vzdělávací prvky obsahuje. Na závěr také představíme jednotlivé obsahové moduly a~podobně je jako primární cíle kurzu zarámujeme do revidované Bloomovy taxonomie vzdělávacích cílů.
 
 \hypertarget{motivace}{%
 \section{Motivace}\label{motivace}}
@@ -18,9 +18,12 @@ Proto vznikla motivace vytvořit v~českém prostředí takový online vzděláv
 
 Samotný kurz\footnote{V ekosystému kurzů firmy Digiskills se komplexnější online kurzy nazývají Digitální akademie – jde ale o~pouhou konvenci firmy, tzn. pro účely tohoto textu není tohle označení podstatné a~nebudeme jej používat.} vznikal za spolupráce s~firmou Digiskills, která nám při návrhu a~implementaci poskytla potřebnou infrastrukturu (primárně webové šablony a~technické vybavení) a~příležitostnou konzultaci, týkající se primárně charakteristiky cílové skupiny a~škálování technické náročnosti. Všechna ostatní rozhodnutí týkající se designu kurzu byla ponechána na nás.
 
-Při definování hlavního vzdělávacího cíle vycházíme z~revidované Bloomovy taxonomie kognitivních vzdělávacích cílů, která byla představena v~roce 2001 a~jež se více přibližuje konstruktivistickému charakteru vzdělávání~\parencite{bloom2}. Na rozdíl od svého předchůdce z~roku 1956 tato revidovaná taxonomie mimo jiné popisuje dimenze kognitivních procesů prostřednictvím činných sloves (a~nikoliv pomocí podstatných jmen, jak tomu bylo dříve), u~nichž dále nabízí konkrétní alternativní pojmenování a~vymezení. Druhou podstatnou změnou je přesun hierarchicky nejvyšší kategorie \emph{hodnotit} (v~původní taxonomii \emph{hodnocení}) pod novou kategorii \emph{tvořit}, která zase vychází z~původní kategorie \emph{syntéza}~\parencite{vavra11}.
+\hypertarget{cuxedle}{%
+\section{Cíle}\label{cuxedle}}
 
-Obecný cíl kurzu se týká primárně dvou oblastí, v~rámci kterých můžeme dále vyčlenit dílčí cíle.
+Při definování vzdělávacích cílů vycházíme z~revidované Bloomovy taxonomie kognitivních vzdělávacích cílů, která byla představena v~roce 2001 a~jež se více přibližuje konstruktivistickému charakteru vzdělávání~\parencite{bloom2}. Na rozdíl od svého předchůdce z~roku 1956 tato revidovaná taxonomie mimo jiné popisuje dimenze kognitivních procesů prostřednictvím činných sloves (a~nikoliv pomocí podstatných jmen, jak tomu bylo dříve), u~nichž dále nabízí konkrétní alternativní pojmenování a~vymezení. Druhou podstatnou změnou je přesun hierarchicky nejvyšší kategorie \emph{hodnotit} (v~původní taxonomii \emph{hodnocení}) pod novou kategorii \emph{tvořit}, která zase vychází z~původní kategorie \emph{syntéza}~\parencite{vavra11}.
+
+Níže uvádíme výčet devíti vzdělávacích cílů kurzu, které se vždy týkají jedné ze dvou hlavních oblastí.
 
 \begin{itemize}
 \tightlist
@@ -51,11 +54,15 @@ Obecný cíl kurzu se týká primárně dvou oblastí, v~rámci kterých můžem
   \item
     student je schopen identifikovat chyby v~datech a~dovede tyto problémy řádně opravit;
   \item
-    student je schopen propojit jednotlivé části dat a~vytvořit na základě nich určité vztahy;
+    student je schopen propojit jednotlivé části dat a~vytvořit na základě nich smysluplné vztahy;
   \item
-    student je schopen
+    student je schopen vytvořit na základě analyzovaných dat novou informaci, kterou dovede komunikovat prostřednictvím jednoduché vizualizace;
+  \item
+    student je schopen vybrat konkrétní analytický nástroj na základě své informační potřeby.
   \end{enumerate}
 \end{itemize}
+
+Jak je z~výše uvedeného seznamu patrné, v~kontextu revidované Bloomovy taxonomie se pohybujeme v~prvních čtyř kategoriích kognitivních procesů -- \emph{pamatovat}, \emph{porozumět}, \emph{aplikovat} a~\emph{analyzovat}. Hlavní důvod pro tohle rozhodnutí je vybraná cílová skupina, kterou jsou primárně úplní začátečníci, jež si pod oblastí datové analytiky nic nepředstaví nebo o~ní mají pouze zdánlivou představu. Na druhou stranu spadá většina vzdělávacích cílů pod třetí kognitivní proces \emph{aplikovat}, protože hlavním požadavkem na kurz ze strany Digiskills měl být přesah do praktických úrovní datové analytiky.
 
 \hypertarget{kompetence}{%
 \section{Kompetence}\label{kompetence}}
