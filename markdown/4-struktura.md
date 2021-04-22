@@ -9,7 +9,7 @@ V první částí se zaměříme na průchod kurzem, popíšeme si tedy, jak je 
 \begin{figure}[ht]   
     \centering
     \includegraphics[width=.9\textwidth]{uvod}  
-    \caption{Úvodní obrazovka s představením kurzu (v prostředí Digiskills digitální akademie)}}
+    \caption{Úvodní obrazovka s představením kurzu (v prostředí Digiskills digitální akademie)}
     \label{uvod}
 \end{figure}
 
