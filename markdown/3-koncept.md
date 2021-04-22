@@ -23,24 +23,24 @@ Při definování vzdělávacích cílů vycházíme z revidované Bloomovy taxo
 Níže uvádíme výčet devíti vzdělávacích cílů kurzu, které se vždy týkají jedné ze dvou hlavních oblastí.
 
 - Teoretická část – témata diskutující základní terminologii a motivaci spojenou s datovou analytikou spolu s úvodem do problematiky týkající se dat:
-	1. student je schopen ilustrovat na fiktivním příkladu důležitost datové analytiky v modelovém prostředí určité organizace;
-	2. student je schopen rozlišit významy pojmů vztahující se k datové analytice a k příbuzným disciplínám;
-	3. student je schopen kategorizovat jednotlivé typy dat a základní datové formáty používané v rámci tabulkových dat.
+	1. student je schopen ilustrovat na fiktivním příkladu důležitost datové analytiky v modelovém prostředí určité organizace – kategorie porozumět (dávat příklady);
+	2. student je schopen rozlišit významy pojmů vztahující se k datové analytice a k příbuzným disciplínám – kategorie porozumět (klasifikovat);
+	3. student je schopen kategorizovat jednotlivé typy dat a základní datové formáty používané v rámci tabulkových dat – kategorie porozumět (srovnávat).
 - Praktická část – témata týkající se jednotlivých částí procesu datové analytiky spolu s výčtem dalších analytických nástrojů:
-	4. student je schopen vysvětlit, z jakých částí se skládá proces datové analytiky a zdůvodnit existenci jednotlivých části;
-	5. student je schopen použít základní techniky importování dat nehledě na využívaný nástroj;
-	6. student je schopen identifikovat chyby v datech a dovede tyto problémy řádně opravit;
-	7. student je schopen propojit jednotlivé části dat a vytvořit na základě nich smysluplné vztahy;
-	8. student je schopen vytvořit na základě analyzovaných dat novou informaci, kterou dovede komunikovat prostřednictvím jednoduché vizualizace;
-	9. student je schopen vybrat konkrétní analytický nástroj na základě své informační potřeby.
+	4. student je schopen vysvětlit, z jakých částí se skládá proces datové analytiky a zdůvodnit existenci jednotlivých části – kategorie porozumět (interpretovat);
+	5. student je schopen použít základní techniky importování dat nehledě na využívaný nástroj – kategorie aplikovat (realizovat);
+	6. student je schopen identifikovat chyby v datech a dovede tyto problémy řádně opravit – kategorie analyzovat (rozlišovat);
+	7. student je schopen propojit jednotlivé části dat a vytvořit na základě nich smysluplné vztahy – kategorie analyzovat (uspořádat);
+	8. student je schopen vytvořit na základě analyzovaných dat novou informaci, kterou dovede komunikovat prostřednictvím jednoduché vizualizace – kategorie analyzovat (strukturovat);
+	9. student je schopen vybrat konkrétní analytický nástroj na základě své informační potřeby – kategorie porozumět (srovnávat).
 
-Jak je z výše uvedeného seznamu patrné, v kontextu revidované Bloomovy taxonomie se pohybujeme v prvních čtyř kategoriích kognitivních procesů – *pamatovat*, *porozumět*, *aplikovat* a *analyzovat*. Hlavní důvod pro tohle rozhodnutí je vybraná cílová skupina, kterou jsou primárně úplní začátečníci, jež si pod oblastí datové analytiky nic nepředstaví nebo o ní mají pouze zdánlivou představu. Na druhou stranu spadá většina vzdělávacích cílů pod třetí kognitivní proces *aplikovat*, protože hlavním požadavkem na kurz  ze strany Digiskills měl být přesah do praktických úrovní datové analytiky.
+Jak je z výše uvedeného seznamu patrné, v kontextu revidované Bloomovy taxonomie se pohybujeme v prvních čtyřech kategoriích kognitivních procesů – *pamatovat*, *porozumět*, *aplikovat* a *analyzovat*. Hlavní důvod pro tohle rozhodnutí je vybraná cílová skupina, kterou jsou primárně úplní začátečníci, jež si pod oblastí datové analytiky nic nepředstaví nebo o ní mají pouze zdánlivou představu. Na druhou stranu spadá většina vzdělávacích cílů pod třetí kognitivní proces *aplikovat*, protože hlavním požadavkem na kurz  ze strany Digiskills měl být přesah do praktických úrovní datové analytiky.
 
 ## Kompetence
 
 Za účelem začlenění kurzu do některého z kompetenčních rámců, můžeme využít výše popsané cíle, které jsme představili v minulé podkapitole. Odhlédneme-li od těch částí obsahu, které partikulárně vychází z výsledků přehledové studie online kurzů, můžeme náš kurz zakotvit primárně do dvou kompetenčních rámců.
 
-První dokument, již zmíněný sylabus *ECDL / ICDL Data Analytics SYLABUS 1.0 (AM8)*, se vztahuje primárně k praktické části – tedy k cílům 4, 5, 6 a 7. Jak bylo zmíněno v teoretické částí (viz \ref{kompetenux10dnuxed-ruxe1mec}), jedná se o modul, který je zaměřen na základy práce s daty určený pro digitálně kvalifikovanou veřejnost. My z tohoto sylabu využijeme všechny oblasti kompetencí kromě kategorie *8.1 koncepce a statistická analýza*\footnote{Zde můžeme využít akorát rozsah znalostí *8.1.1.2* a *8.1.1.3*, protože se jedná o kompetence spojené s chápáním hlavních přínosů datové analytiky a teoretických znalosti jednotlivých fází.}, protože ta se zabývá statistickými pojmy, které nepovažujeme pro naše účely za příliš podstatné (resp. počítáme s tím, že studenti disponují základní znalostí matematiky ze základní školy a dokážou pracovat se základními pojmy jako je například průměr, chápání složitější statistiky tedy není potřebné) \parencite{ecdl17}.
+První dokument, již zmíněný sylabus *ECDL / ICDL Data Analytics SYLABUS 1.0 (AM8)*, se vztahuje primárně k praktické části – tedy k cílům 4, 5, 6 a 7. Jak bylo zmíněno v teoretické částí (viz \ref{kompetenux10dnuxed-ruxe1mec}), jedná se o modul, který je zaměřen na základy práce s daty určený pro digitálně kvalifikovanou veřejnost. My z tohoto sylabu využijeme všechny oblasti kompetencí kromě kategorie *8.1 koncepce a statistická analýza*\footnote{Zde můžeme využít akorát rozsah znalostí 8.1.1.2 a 8.1.1.3, protože se jedná o kompetence spojené s chápáním hlavních přínosů datové analytiky a teoretických znalosti jednotlivých fází.}, protože ta se zabývá statistickými pojmy, které nepovažujeme pro naše účely za příliš podstatné (resp. počítáme s tím, že studenti disponují základní znalostí matematiky ze základní školy a dokážou pracovat se základními pojmy jako je například průměr, chápání složitější statistiky tedy není potřebné) \parencite{ecdl17}.
 
 Díky tomuto vzdělávacímu sylabu máme zarámované praktické kompetence procesu datové analytiky do hlavních kategorií a jejich zanořených oblastí znalostí:
 
