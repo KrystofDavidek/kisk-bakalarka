@@ -1,6 +1,17 @@
 # Obsah kurzu
 
+V poslední kapitole si představíme vytvořený online kurz pro výuku datové analytiky. Tuto část dělíme do tří vzájemně provázaných částí, z nichž každá reflektuje odlišnou oblast návrhu a implementace online kurzu. 
+
 ## Průchod
+
+V první částí se zaměříme na průchod kurzem, popíšeme si tedy, jak je kurz navržen po strukturální stránce a jakým způsobem  student prochází jednotlivými částmi.
+
+\begin{figure}[ht]   
+    \centering
+    \includegraphics[width=.9\textwidth]{uvod}  
+    \caption{Úvodní obrazovka s představením kurzu (v prostředí Digiskills digitální akademie)}}
+    \label{uvod}
+\end{figure}
 
 ## Komponenty
 
