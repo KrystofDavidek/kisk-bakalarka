@@ -34,7 +34,25 @@ Níže uvádíme výčet devíti vzdělávacích cílů kurzu, které se vždy t
 	8. student je schopen vytvořit na základě analyzovaných dat novou informaci, kterou dovede komunikovat prostřednictvím jednoduché vizualizace;
 	9. student je schopen vybrat konkrétní analytický nástroj na základě své informační potřeby.
 
-Jak je z výše uvedeného seznamu patrné, v kontextu revidované Bloomovy taxonomie se pohybujeme v prvních čtyř kategoriích kognitivních procesů – *pamatovat*, *porozumět*, *aplikovat* a *analyzovat*. Hlavní důvod pro tohle rozhodnutí je vybraná cílová skupina, kterou jsou primárně úplní začátečníci, jež si pod oblastí datové analytiky nic nepředstaví nebo o ní mají pouze zdánlivou představu. Na druhou stranu spadá většina vzdělávacích cílů pod třetí kognitivní proces *aplikovat*, protože hlavním požadavkem na kurz   ze strany Digiskills měl být přesah do praktických úrovní datové analytiky.
+Jak je z výše uvedeného seznamu patrné, v kontextu revidované Bloomovy taxonomie se pohybujeme v prvních čtyř kategoriích kognitivních procesů – *pamatovat*, *porozumět*, *aplikovat* a *analyzovat*. Hlavní důvod pro tohle rozhodnutí je vybraná cílová skupina, kterou jsou primárně úplní začátečníci, jež si pod oblastí datové analytiky nic nepředstaví nebo o ní mají pouze zdánlivou představu. Na druhou stranu spadá většina vzdělávacích cílů pod třetí kognitivní proces *aplikovat*, protože hlavním požadavkem na kurz  ze strany Digiskills měl být přesah do praktických úrovní datové analytiky.
 
 ## Kompetence
 
+Za účelem začlenění kurzu do některého z kompetenčních rámců, můžeme využít výše popsané cíle, které jsme představili v minulé podkapitole. Odhlédneme-li od těch částí obsahu, které partikulárně vychází z výsledků přehledové studie online kurzů, můžeme náš kurz zakotvit primárně do dvou kompetenčních rámců.
+
+První dokument, již zmíněný sylabus *ECDL / ICDL Data Analytics SYLABUS 1.0 (AM8)*, se vztahuje primárně k praktické části – tedy k cílům 4, 5, 6 a 7. Jak bylo zmíněno v teoretické částí (viz \ref{kompetenux10dnuxed-ruxe1mec}), jedná se o modul, který je zaměřen na základy práce s daty určený pro digitálně kvalifikovanou veřejnost. My z tohoto sylabu využijeme všechny oblasti kompetencí kromě kategorie *8.1 koncepce a statistická analýza*\footnote{Zde můžeme využít akorát rozsah znalostí *8.1.1.2* a *8.1.1.3*, protože se jedná o kompetence spojené s chápáním hlavních přínosů datové analytiky a teoretických znalosti jednotlivých fází.}, protože ta se zabývá statistickými pojmy, které nepovažujeme pro naše účely za příliš podstatné (resp. počítáme s tím, že studenti disponují základní znalostí matematiky ze základní školy a dokážou pracovat se základními pojmy jako je například průměr, chápání složitější statistiky tedy není potřebné) \parencite{ecdl17}.
+
+Díky tomuto vzdělávacímu sylabu máme zarámované praktické kompetence procesu datové analytiky do hlavních kategorií a jejich zanořených oblastí znalostí:
+
+- příprava datového zdroje – tuto kategorii v našem online kurzu vydělujme do dvou částí, a to do *importu dat* a *čištění dat*, zde jsme inspirovali přístupy jiných kurzů, které začátečníkům tyto dvě fáze vysvětlují odděleně;
+	- import, přizpůsobení importu;
+	- filtrování;
+- shrnování dat – s touto kategorií pracujeme v kurzu pod názvem *analýza dat*, terminologicky totiž lépe sedí do konceptu jiných kurzů zabývající procesem datové analytiky;
+	- agregace dat v kontingenční tabulce;
+	- frekvenční analýza v kontingenční tabulce;
+	- filtrování kontingenční tabulky;
+	- používání kontingenčního grafu;
+- vizualizace dat;
+	- koncepce a nastavení;
+	- prvky vizualizace;
+	- publikování a sdílení.
