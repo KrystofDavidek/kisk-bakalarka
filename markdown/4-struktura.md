@@ -6,12 +6,12 @@ V poslední kapitole si představíme vytvořený online kurz pro výuku datové
 
 V první částí se zaměříme na obecný průchod kurzem – popíšeme si, jak je kurz navržen po strukturální stránce a jakým způsobem student prochází jednotlivými částmi.
 
-Hlavní část kurzu je tvořena sedmi hlavními obsahovými bloky, z nichž se každý zabývá jedním určitým tématem, které na sebe přímo navazují a představují tak hrubou strukturu online kurzu. Mimo tyto ústřední bloky e-learning na začátku obsahuje úvodní text, jehož cílem je studenta navnadit ke studiu a v co největší stručnosti popsat obsah celého kurzu.  Zároveň je pod touto úvodní kartou umístěn malý ukazatel progresu s počtem splněných aktivit (viz další odstavec) spolu s podkartou *Užitečný tip*, která slouží v rámci ekosystému kurzů Digiskills k nasměrování na integrovaného chatbota.
+Hlavní část kurzu je tvořena sedmi hlavními obsahovými bloky, z nichž se každý zabývá jedním určitým tématem, které na sebe přímo navazují a představují tak hrubou strukturu online kurzu (viz \ref{digi-bloky}). Mimo tyto ústřední bloky e-learning na začátku obsahuje úvodní text, jehož cílem je studenta navnadit ke studiu a v co největší stručnosti popsat obsah celého kurzu.  Zároveň je pod touto úvodní kartou umístěn malý ukazatel progresu s počtem splněných aktivit (viz další odstavec) spolu s podkartou *Užitečný tip*, která slouží v rámci ekosystému kurzů Digiskills k nasměrování na integrovaného chatbota.
 
 \begin{figure}[ht]   
     \centering
     \includegraphics[width=\textwidth]{digi-uvod}  
-    \caption{Úvodní obrazovka s představením kurzu spolu s ukazatelem progresu a podkartou *Užitečný tip*}
+    \caption{Úvodní obrazovka s představením kurzu spolu s ukazatelem progresu a podkartou Užitečný tip}
     \label{digi-uvod}
 \end{figure}
 
@@ -31,7 +31,7 @@ Základní jednotkou kurzu jsou pak již zmíněné aktivity, jež jsou vždy za
 \begin{figure}[ht]   
     \centering
     \includegraphics[width=\textwidth]{digi-blok}  
-    \caption{Vnořené aktivity vztahující se ke obsahovému bloku *Vizualizace a prezentace dat*}
+    \caption{Vnořené aktivity vztahující se ke obsahovému bloku Vizualizace a prezentace dat}
     \label{digi-blok}
 \end{figure}
 
