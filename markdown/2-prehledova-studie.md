@@ -6,7 +6,7 @@ Ve druhé kapitole teoretické části se budeme zabývat již existujícími on
 
 Výsledky získané z této přehledové studie posléze využijeme k návrhu jednotlivých částí našeho online kurzu, který je zaměřen na výuku základů datové analytiky primárně v podnikovém prostředí (vlastní řešení konkrétněji rozvádíme v praktické části této práce).
 
-Každý zpracovaný online kurz  (vybírali jsme pouze takové kurzy, s jejichž obsahem se dá alespoň částečně bezplatně pracovat, a mají tedy nějakou podobu otevřeného přístupu) sestává ze tří oddělených ale vzájemně se doplňujících částí.
+Každý zpracovaný online kurz (vybírali jsme pouze takové kurzy, s jejichž obsahem se dá alespoň částečně bezplatně pracovat, a mají tedy nějakou podobu otevřeného přístupu) sestává ze tří oddělených ale vzájemně se doplňujících částí.
 
 ### Anotace kurzu s odůvodněním výběru
 
@@ -51,7 +51,7 @@ Tento kurz jsme do našeho výběru zahrnuli jednak proto, že pracuje s koncept
 
 Za hodnotnou část tohoto kurzu vnímáme primárně teoretičtější téma využití datové analytiky v podnikovém prostředí – konkrétně jde tedy o první a čtvrtý modul. Autoři kurzu totiž přehledným způsobem vysvětlují datovou analytiku jakožto nutnou součást firemních procesů, které začínají u samotných jednotlivců a časem přesahují do vyšších pater dané organizace. Tuto část pokládáme ze velmi důležitou a pokusíme se ji tak začlenit do úvodních částí našeho vlastního kurzu. 
 
-Druhou složkou, jež bychom rádi nějakým způsobem integrovali, je koncept jednoho komplexního úkolů, na němž studenti po celou dobu studia pracují. V tomto případě šlo sice o úkol, který se nacházel až v posledním modulu, nicméně sestával ze všech předcházejících dovedností a pracoval s reálným podnikovým modelem. Rádi bychom tedy i vlastní studenty pobídli k práci na jednom větším projektu, který se skládá ze vzájemně na sebe navazujících části a který je co nejvíce přibližuje k reálným procesům určité organizace.
+Druhou složkou, jež bychom rádi nějakým způsobem integrovali, je koncept jednoho komplexního úkolů, na němž studenti po celou dobu studia pracují. V tomto případě šlo sice o úkol, který se nacházel až v posledním modulu, nicméně sestával ze všech předcházejících dovedností a pracoval s reálným podnikovým modelem. Rádi bychom tedy i vlastní studenty pobídli k práci na jednom větším projektu, který se skládá ze vzájemně na sebe navazujících částí a který je co nejvíce přibližuje k reálným procesům určité organizace.
 
 ### Intro to Data Analysis
 
@@ -86,7 +86,7 @@ Třetí analyzovaný e-learning není ani tak přímo jeden jediný online kurz,
 	 - Understanding Aggregations;
 	 - Understanding Distributions \parencite{course3}.
 
-Tento kurz jsme vybrali hlavně ze dvou důvodů. Jednak proto, že zpracovává určitá dílčí témata datové analytiky v kontextu datové gramotnosti (např. charakteristiku dat jakožto objektů, kterými se datová analytika zabývá) a jednak z toho důvodu, že   originálním způsobem představuje možnosti datové gramotnosti a analytiky v organizacích. Resp. jsou v online materiálech zevrubně popsány jednotlivé kroky (ty na sebe cyklicky navazují – plánování a vize, komunikace, zhodnocení, vzdělávání s evaluace), kterými se je zapotřebí řídit, chceme-li svoji organizaci nebo podnik přetvořit v datově orientované prostředí, kde se rozhodnutí vytváří na datově podloženém základě.
+Tento kurz jsme vybrali hlavně ze dvou důvodů. Jednak proto, že zpracovává určitá dílčí témata datové analytiky v kontextu datové gramotnosti (např. charakteristiku dat jakožto objektů, kterými se datová analytika zabývá) a jednak z toho důvodu, že   originálním způsobem představuje možnosti datové gramotnosti a analytiky v organizacích. Resp. jsou v online materiálech zevrubně popsány jednotlivé kroky (ty na sebe cyklicky navazují – plánování a vize, komunikace, zhodnocení, vzdělávání a evaluace), kterými se je zapotřebí řídit, chceme-li svoji organizaci nebo podnik přetvořit v datově orientované prostředí, kde se rozhodnutí vytváří na datově podloženém základě.
 
 #### Využité prvky
 
@@ -116,7 +116,7 @@ Obsahově se kurz dělí do čtyř na sebe navazujících částí:
 - Personal Finance – pokročilé analytické funkce, základní statistické metody a pokročilé vizualizační techniky;
 - Power BI Service and Mobile App – kontextualizace s jinými nástroji, komplexní zadání závěrečné práce.
 
-Tento kurz jsme vybrali hlavně kvůli jeho podobě a použitým vzdělávacích prvkům, za hodnotnou složku tedy primárně považujeme formu, jakou představuje určitou práci s praktickým nástrojem. Autorský tým dokázal prostřednictvím edukačních videí přehledným způsobem krok za krokem představovat základní principy softwaru Power BI a posouvat tak studentovy dovednosti a znalosti stále ke složitějším manipulacím s daty.
+Tento kurz jsme vybrali hlavně kvůli jeho podobě a použitým vzdělávacím prvkům, za hodnotnou složku tedy primárně považujeme formu, jakou představuje určitou práci s praktickým nástrojem. Autorský tým dokázal prostřednictvím edukačních videí přehledným způsobem krok za krokem představovat základní principy softwaru Power BI a posouvat tak studentovy dovednosti a znalosti stále ke složitějším manipulacím s daty.
 
 #### Využité prvky
 
@@ -124,7 +124,7 @@ I přes to, že se náš vlastní online kurz nemá vázat na jeden konkrétní 
 
 ### Introduction to Data Analytics
 
-Další analyzovaný online kurz *Introduction to Data Analytics*\footnote{Systematickou analýzu kurzu uvádíme v tabulce s parametry viz Tabulka \ref{tab6}.} spadá pod platformu Coursera a je součástí čtyř na sebe navazujících e-learningů, které jsou zarámované profesním certifikátem *IBM Data Analyst Professional Certificate* (certifikát se snaží reflektovat požadavky na pracovní trh, u něhož se dle predikcí předpovídá do roku 2028 až 20\% nárust pozic spojených s datovou analytikou\footnote{https://www.coursera.org/professional-certificates/ibm-data-analyst}). Tento kurz je úvodní částí a zaměřuje se tak na základní teoretické koncepty týkající se datové analytiky. Velký důraz klade na popis role datového analytika – snaží se popsat co je náplní jeho práce (a zároveň tuto roli představuje v kontextu dalších pracovních rolí jako jsou data scientist a data engineer) a představuje s jakými nástroji a technikami by měl být schopen pracovat \parencite{course6}.
+Další analyzovaný online kurz *Introduction to Data Analytics*\footnote{Systematickou analýzu kurzu uvádíme v tabulce s parametry viz Tabulka \ref{tab6}.} spadá pod platformu Coursera a je součástí čtyř na sebe navazujících e-learningů, které jsou zarámované profesním certifikátem *IBM Data Analyst Professional Certificate* (certifikát se snaží reflektovat požadavky na pracovní trh, u něhož se dle predikcí předpovídá do roku 2028 až 20\% nárůst pozic spojených s datovou analytikou\footnote{https://www.coursera.org/professional-certificates/ibm-data-analyst}). Tento kurz je úvodní částí a zaměřuje se tak na základní teoretické koncepty týkající se datové analytiky. Velký důraz klade na popis role datového analytika – snaží se popsat co je náplní jeho práce (a zároveň tuto roli představuje v kontextu dalších pracovních rolí jako jsou data scientist a data engineer) a představuje s jakými nástroji a technikami by měl být schopen pracovat \parencite{course6}.
 
 Ve druhé části je pak přehlednou formou vysvětlen proces datové analytiky skládající se z:
 
@@ -136,7 +136,7 @@ I přes to, že se kurz v některých podkapitolách zaměřuje na praktická t�
 
 #### Využité prvky
 
-Autoři kurzu si dali záležet na častém používání doprovodných kvízů téměr po každé samostatné obsahové části. Jelikož považujeme za důležité pracovat s neustálou aktivizací studujícího, můžeme využít některých již vytvořených kvízu a adaptovat je na naše konkrétní potřeby. Druhou významnou složkou, kterou bychom určitým způsobem integrovali do našeho řešení, je právě srozumitelné vysvětlení role datového analytika v rámci pracovního trhu a porovnání jeho profesní náplně s příbuznými oblastmi.
+Autoři kurzu si dali záležet na častém používání doprovodných kvízů téměř po každé samostatné obsahové části. Jelikož považujeme za důležité pracovat s neustálou aktivizací studujícího, můžeme využít některých již vytvořených kvízu a adaptovat je na naše konkrétní potřeby. Druhou významnou složkou, kterou bychom určitým způsobem integrovali do našeho řešení, je právě srozumitelné vysvětlení role datového analytika v rámci pracovního trhu a porovnání jeho profesní náplně s příbuznými oblastmi.
 
 ### Excel Basics for Data Analysis
 

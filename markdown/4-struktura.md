@@ -57,14 +57,14 @@ V našem online kurzu využíváme výhradně těchto pět typů aktivit, které
 \begin{figure}[ht]   
     \centering
     \includegraphics[width=\textwidth]{digi-kviz}  
-    \caption{Příklad otázky z průběženého kvízu týkající se tématu analýza a vizualizace dat}
+    \caption{Příklad otázky z průběžného kvízu týkající se tématu analýza a vizualizace dat}
     \label{digi-kviz}
 \end{figure}
 
 \begin{figure}[ht]   
     \centering
     \includegraphics[width=\textwidth]{digi-kviz-0}  
-    \caption{Příklad otázky z průběženého kvízu týkající se tématu analýza a vizualizace dat}
+    \caption{Příklad otázky z průběžného kvízu týkající se tématu analýza a vizualizace dat}
     \label{digi-kviz-0}
 \end{figure}
 
@@ -72,8 +72,18 @@ Pro úspěšný průchod celým kurzem je zapotřebí mít splněné všechny d�
 
 ##  Moduly
 
-V této poslední podkapitole popíšeme jednotlivé obsahové bloky (dále jen moduly), které dělíme podle toho, jaký vzdělávací cíl splňují, a tedy zda spadají do teoreticky nebo prakticky zaměřené části kurzu.
+V této poslední podkapitole popíšeme jednotlivé obsahové bloky (dále jen moduly), které dělíme podle toho, jaký vzdělávací cíl splňují, a tedy zda spadají do teoreticky nebo prakticky zaměřené části kurzu\footnote{Prostřednictvím celkové stylizace kurzu směřujeme k co největší popularizaci tématu, proto jsou některé názvy jednotlivých obsahových bloků a aktivit pojaty méně formálním způsobem.}.
 
-### Úvod aneb ‚‚Co je to vlastně datová analytika
+### Úvod aneb ‚‚Co je to vlastně datová analytika‘‘
 
-První modul spadá do teoretické části, protože si klade za cíl (viz cíl \ref{1-cil}) uvést studenta do tématu prostřednictvím...
+První teoretický modul si klade za cíl uvést studenta do kontextu celého kurzu – představuje mu možnosti online prostředí, vysvětluje, jak probíhá průchod kurzem, a uvádí osnovu kurzu. Ještě před samotnou teorií týkající se úvodních témat datové analytiky je student seznámen se skutečností, že v druhé, praktické části kurzu, bude sám participovat na svém vlastním řešení, prostřednictvím kterého by si měl osahat základní techniky datové analytiky.
+
+V dalších částech tohoto modulu je co srozumitelným způsobem vysvětleno, proč je důležité datovou analytiku v organizacích využívat a jakou přidanou hodnotu může mít při tvorbě firemních rozhodnutí. V této části jsme se také zaměřili na koncept *datově orientované organizace*, v rámci kterého jsme se snažili vztáhnout téma datové gramotnosti právě na organizační prostředí a znovu tak studenta motivovat ke studiu datové analytiky.
+
+V poslední aktivitě jsme se pak zmínili o příbuzných pojmech, které se s datovou analytikou pojí (např. *Big Data* a *IoT*) a jasně jsme vymezili příbuzené disciplíny jako jsou *Data Science* a *Data Engineering*. Z celkového hlediska tento modul naplňuje první dva vzdělávací cíle kurzu (viz cíle \ref{1-cil} a \ref{2-cil}).
+
+### Data, data a zase data
+
+Druhý teoretický obsahový blok zpracovává problematiku spojenou s definicí dat – snaží se studentovi vysvětlit, co si pod pojmem data představit a jakým způsobem lze data dělit a kategorizovat podle daných potřeb. V této sekci již studenta uvádíme do tématu prostřednictvím krátkého popularizačního videa a následně pomocí stručného článku pobízíme k zamyšlení, s jakým typem dat student vlastně nejčastěji pracuje.
+
+Na závěr modulu představujeme obsah praktické části kurzu, kterým je proces datové analytiky. Ve videu popisujeme jednotlivé fáze procesu a snažíme se akcentovat fakt, že data nejsou totéž co informace, ale že ze surových dat informace získáváme právě prostřednictvím analýzy a následné vizualizace. Tato část tak splňuje třetí vzdělávací cíl kurzu (viz cíle \ref{3-cil}).

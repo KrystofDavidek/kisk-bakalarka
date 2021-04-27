@@ -23,18 +23,18 @@ Při definování vzdělávacích cílů vycházíme z revidované Bloomovy taxo
 Níže uvádíme výčet devíti vzdělávacích cílů kurzu, které se vždy týkají jedné ze dvou hlavních oblastí.
 
 - Teoretická část – témata diskutující základní terminologii a motivaci spojenou s datovou analytikou spolu s úvodem do problematiky týkající se dat:
-	1. student je schopen ilustrovat na fiktivním příkladu důležitost datové analytiky v modelovém prostředí určité organizace – kategorie *porozumět* (*dávat příklady*) \label{1-cil};
-	2. student je schopen rozlišit významy pojmů vztahující se k datové analytice a k příbuzným disciplínám – kategorie *porozumět* (*klasifikovat*);
-	3. student je schopen kategorizovat jednotlivé typy dat a základní datové formáty používané v rámci tabulkových dat – kategorie *porozumět* (*srovnávat*).
+	1. student je schopen ilustrovat na fiktivním příkladu důležitost datové analytiky v modelovém prostředí určité organizace – kategorie *porozumět* (*dávat příklady*)\label{1-cil};
+	2. student je schopen rozlišit významy pojmů vztahující se k datové analytice a k příbuzným disciplínám – kategorie *porozumět* (*klasifikovat*)\label{2-cil};
+	3. student je schopen kategorizovat jednotlivé typy dat a základní datové formáty používané v rámci tabulkových dat – kategorie *porozumět* (*srovnávat*)\label{3-cil}.
 - Praktická část – témata týkající se jednotlivých částí procesu datové analytiky spolu s výčtem dalších analytických nástrojů:
-	4. student je schopen vysvětlit, z jakých částí se skládá proces datové analytiky a zdůvodnit existenci jednotlivých části – kategorie *porozumět* (*interpretovat*);
-	5. student je schopen použít základní techniky importování dat nehledě na využívaný nástroj – kategorie *aplikovat* (*realizovat*);
-	6. student je schopen identifikovat chyby v datech a dovede tyto problémy řádně opravit – kategorie *analyzovat* (*rozlišovat*);
-	7. student je schopen propojit jednotlivé části dat a vytvořit na základě nich smysluplné vztahy – kategorie *analyzovat* (*uspořádat*);
-	8. student je schopen vytvořit na základě analyzovaných dat novou informaci, kterou dovede komunikovat prostřednictvím jednoduché vizualizace – kategorie *analyzovat* (*strukturovat*);
-	9. student je schopen vybrat konkrétní analytický nástroj na základě své informační potřeby – kategorie *porozumět* (*srovnávat*).
+	4. student je schopen vysvětlit, z jakých částí se skládá proces datové analytiky a zdůvodnit existenci jednotlivých části – kategorie *porozumět* (*interpretovat*)\label{4-cil};
+	5. student je schopen použít základní techniky importování dat nehledě na využívaný nástroj – kategorie *aplikovat* (*realizovat*)\label{5-cil};
+	6. student je schopen identifikovat chyby v datech a dovede tyto problémy řádně opravit – kategorie *analyzovat* (*rozlišovat*)\label{6-cil};
+	7. student je schopen propojit jednotlivé části dat a vytvořit na základě nich smysluplné vztahy – kategorie *analyzovat* (*uspořádat*)\label{7-cil};
+	8. student je schopen vytvořit na základě analyzovaných dat novou informaci, kterou dovede komunikovat prostřednictvím jednoduché vizualizace – kategorie *analyzovat* (*strukturovat*)\label{8-cil};
+	9. student je schopen vybrat konkrétní analytický nástroj na základě své informační potřeby – kategorie *porozumět* (*srovnávat*)\label{9-cil}.
 
-Jak je z výše uvedeného seznamu patrné, v kontextu revidované Bloomovy taxonomie se pohybujeme v prvních čtyřech kategoriích kognitivních procesů – *pamatovat*, *porozumět*, *aplikovat* a *analyzovat*. Hlavní důvod pro tohle rozhodnutí je vybraná cílová skupina, kterou jsou primárně úplní začátečníci, jež si pod oblastí datové analytiky nic nepředstaví nebo o ní mají pouze zdánlivou představu. Na druhou stranu spadá většina vzdělávacích cílů pod třetí kognitivní proces *aplikovat*, protože hlavním požadavkem na kurz  ze strany Digiskills měl být přesah do praktických úrovní datové analytiky.
+Jak je z výše uvedeného seznamu patrné, v kontextu revidované Bloomovy taxonomie se pohybujeme v prvních čtyřech kategoriích kognitivních procesů – *pamatovat*, *porozumět*, *aplikovat* a *analyzovat*. Hlavní důvod pro tohle rozhodnutí je vybraná cílová skupina, kterou jsou primárně úplní začátečníci, jež si pod oblastí datové analytiky nic nepředstaví nebo o ní mají pouze zdánlivou představu. Na druhou stranu spadá většina vzdělávacích cílů pod třetí kognitivní proces *aplikovat*, protože hlavním požadavkem na kurz ze strany Digiskills měl být přesah do praktických úrovní datové analytiky.
 
 ## Kompetence
 
