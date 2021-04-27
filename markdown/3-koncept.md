@@ -2,7 +2,7 @@
 
 # Koncept kurzu
 
-Ve druhé části této bakalářské práce se budeme zabývat představením vlastního online kurzu zaměřeného na výuku základů datové analytiky. Ve dvou následujících kapitolách si popíšeme návrh a implementaci našeho e-learningu z hlediska dvou různých rovin, a to konceptuální a strukturální.
+Ve druhé části této bakalářské práce se budeme zabývat představením vlastního online kurzu zaměřeného na výuku základů datové analytiky. Ve dvou následujících kapitolách si popíšeme návrh a implementaci našeho e-learningu z hlediska dvou různých rovin, a to konceptuální a obsahové.
 
 Našim cílem v této praktické části bude tedy jednak uvést motivaci a cíle vztahující se k tvorbě online kurzu, ale také přehledným způsobem popsat, z jakých komponent se náš kurz skládá a jaké vzdělávací prvky obsahuje. Na závěr také představíme jednotlivé obsahové moduly a podobně je jako primární cíle kurzu zarámujeme do revidované Bloomovy taxonomie vzdělávacích cílů.
 
@@ -23,7 +23,7 @@ Při definování vzdělávacích cílů vycházíme z revidované Bloomovy taxo
 Níže uvádíme výčet devíti vzdělávacích cílů kurzu, které se vždy týkají jedné ze dvou hlavních oblastí.
 
 - Teoretická část – témata diskutující základní terminologii a motivaci spojenou s datovou analytikou spolu s úvodem do problematiky týkající se dat:
-	1. student je schopen ilustrovat na fiktivním příkladu důležitost datové analytiky v modelovém prostředí určité organizace – kategorie *porozumět* (*dávat příklady*);
+	1. student je schopen ilustrovat na fiktivním příkladu důležitost datové analytiky v modelovém prostředí určité organizace – kategorie *porozumět* (*dávat příklady*) \label{1-cil};
 	2. student je schopen rozlišit významy pojmů vztahující se k datové analytice a k příbuzným disciplínám – kategorie *porozumět* (*klasifikovat*);
 	3. student je schopen kategorizovat jednotlivé typy dat a základní datové formáty používané v rámci tabulkových dat – kategorie *porozumět* (*srovnávat*).
 - Praktická část – témata týkající se jednotlivých částí procesu datové analytiky spolu s výčtem dalších analytických nástrojů:

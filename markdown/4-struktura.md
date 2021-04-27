@@ -10,9 +10,9 @@ Hlavní část kurzu je tvořena sedmi hlavními obsahovými bloky, z nichž se 
 
 Mimo tyto ústřední bloky e-learning na začátku obsahuje úvodní text, jehož cílem je studenta navnadit ke studiu a v co největší stručnosti popsat obsah celého kurzu. Zároveň je pod touto úvodní kartou umístěn malý ukazatel progresu s počtem splněných aktivit (viz další odstavec) spolu s podkartou *Užitečný tip*, která slouží v rámci ekosystému kurzů Digiskills k nasměrování na integrovaného chatbota (viz Obrázek \ref{digi-uvod}).
 
-\begin{figure}[h]   
+\begin{figure}[ht]   
     \centering
-    \includegraphics[width=0.9\textwidth]{digi-uvod}  
+    \includegraphics[width=\textwidth]{digi-uvod}  
     \caption{Úvodní obrazovka s představením kurzu spolu s ukazatelem progresu a s podkartou týkající se užitečného tipu}
     \label{digi-uvod}
 \end{figure}
@@ -23,23 +23,23 @@ Základní jednotkou kurzu jsou pak již zmíněné aktivity, jež jsou vždy za
  - 1–3 aktivity zpracovávající konkrétní část tématu;
  - 1–2 závěrečné aktivity, jež shrnují dané téma a pobízí studenta k vlastní práci ať už prostřednictvím kvízů či praktických úkolů (viz Obrázek \ref{digi-aktivity}).
 
-\begin{figure}[h]   
+\begin{figure}[ht]   
     \centering
-    \includegraphics[width=0.9\textwidth]{digi-bloky}  
+    \includegraphics[width=\textwidth]{digi-bloky}  
     \caption{Nerozbalený výčet všech obsahových bloků}
     \label{digi-bloky}
 \end{figure}
 
-\begin{figure}[h]   
+\begin{figure}[ht]   
     \centering
-    \includegraphics[width=0.9\textwidth]{digi-blok}  
+    \includegraphics[width=\textwidth]{digi-blok}  
     \caption{Vnořené aktivity vztahující se ke obsahovému bloku Vizualizace a prezentace dat}
     \label{digi-blok}
 \end{figure}
 
-\begin{figure}[h]   
+\begin{figure}[ht]   
     \centering
-    \includegraphics[width=0.9\textwidth]{digi-aktivity}  
+    \includegraphics[width=\textwidth]{digi-aktivity}  
     \caption{Závěrečná aktivita, která obsahuje zadání praktického úkolu}
     \label{digi-aktivity}
 \end{figure}
@@ -54,22 +54,26 @@ V našem online kurzu využíváme výhradně těchto pět typů aktivit, které
  - *nahrát soubor* – aktivity tohoto typu jsou umístěny za výukovými videy, protože v rámci nich student odevzdává vlastní vypracovanou práci spolu s krátkou textovou reflexí\footnote{Krátkou reflexi jsme po odevzdání praktických úkolů začlenili z toho důvodu, aby měl student možnost zapřemýšlet nad nově nabytými dovednostmi a případnými nejasnostmi, které mohou spojeny buď s probíranou problematikou anebo s formátem samotného kurzu.};
  - *test typeform* – v těchto aktivitách student vypracovává krátký kvíz, jehož cílem je připomenout hlavní znalosti a dovednosti, které si v rámci minulých aktivit osvojil. Při špatné odpovědi kvíz studenta naviguje ke konkrétní aktivitě, která látku vysvětluje, student může posléze svoji odpověď změnit a znovu odpovídat (viz Obrazek \ref{digi-kviz} a \ref{digi-kviz-0}).
 
-\begin{figure}[h]   
+\begin{figure}[ht]   
     \centering
-    \includegraphics[width=0.9\textwidth]{digi-kviz}  
+    \includegraphics[width=\textwidth]{digi-kviz}  
     \caption{Příklad otázky z průběženého kvízu týkající se tématu analýza a vizualizace dat}
     \label{digi-kviz}
 \end{figure}
 
-\begin{figure}[h]   
+\begin{figure}[ht]   
     \centering
-    \includegraphics[width=0.9\textwidth]{digi-kviz-0}  
+    \includegraphics[width=\textwidth]{digi-kviz-0}  
     \caption{Příklad otázky z průběženého kvízu týkající se tématu analýza a vizualizace dat}
     \label{digi-kviz-0}
 \end{figure}
 
-Pro úspěšný průchod celým kurzem je zapotřebí mít splněné všechny dílčí aktivity včetně kvízů a správně odevzdané všechny praktické úkoly. Kurz byl navržen tak, aby byly všechny odevzdané úkoly zkontrolovány a aby byla jednotlivým studujícím vždy poskytnuta zpětná vazba. 
+Pro úspěšný průchod celým kurzem je zapotřebí mít splněné všechny dílčí aktivity včetně kvízů a korektně odevzdané všechny praktické úkoly. Kurz byl navržen tak, aby byly všechny odevzdané úkoly zkontrolovány pověřenou osobou – chceme tak docílit k poskytnutí individuální zpětné vazby každému jednotlivému studentovi. 
 
 ##  Moduly
 
-Obsahové bloky (spolu s jejich vnořenými aktivitami) dále dělíme podle toho, jaký vzdělávací cíl splňují, a tedy zda spadají do teoreticky nebo prakticky zaměřené části kurzu. Student nejprve prochází dva teoretické bloky *Úvod aneb ‚‚Co je to vlastně datová analytika‘‘* a *Data, data a zase data*, v rámci kterých 
+V této poslední podkapitole popíšeme jednotlivé obsahové bloky (dále jen moduly), které dělíme podle toho, jaký vzdělávací cíl splňují, a tedy zda spadají do teoreticky nebo prakticky zaměřené části kurzu.
+
+### Úvod aneb ‚‚Co je to vlastně datová analytika
+
+První modul spadá do teoretické části, protože si klade za cíl (viz cíl \ref{1-cil}) uvést studenta do tématu prostřednictvím...
