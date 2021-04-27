@@ -1,19 +1,21 @@
 \hypertarget{obsah-kurzu}{%
 \chapter{Obsah kurzu}\label{obsah-kurzu}}
 
-V~poslední kapitole si představíme vytvořený online kurz pro výuku datové analytiky. Tuto část dělíme do tří vzájemně provázaných částí, z~nichž každá reflektuje odlišnou oblast návrhu a~implementace online kurzu.
+V~poslední kapitole si představíme vytvořený online kurz pro výuku datové analytiky. Tuto část dělíme do několika vzájemně provázaných částí, z~nichž každá reflektuje odlišnou oblast návrhu a~implementace online kurzu.
 
 \hypertarget{prux16fchod}{%
 \section{Průchod}\label{prux16fchod}}
 
 V~první částí se zaměříme na obecný průchod kurzem -- popíšeme si, jak je kurz navržen po strukturální stránce a~jakým způsobem student prochází jednotlivými částmi.
 
-Hlavní část kurzu je tvořena sedmi hlavními obsahovými bloky, z~nichž se každý zabývá jedním určitým tématem, které na sebe přímo navazují a~představují tak hrubou strukturu online kurzu (viz Obrázek \ref{digi-bloky}). Mimo tyto ústřední bloky e-learning na začátku obsahuje úvodní text, jehož cílem je studenta navnadit ke studiu a~v~co největší stručnosti popsat obsah celého kurzu. Zároveň je pod touto úvodní kartou umístěn malý ukazatel progresu s~počtem splněných aktivit (viz další odstavec) spolu s~podkartou \emph{Užitečný tip}, která slouží v~rámci ekosystému kurzů Digiskills k~nasměrování na integrovaného chatbota (viz Obrázek \ref{digi-uvod}).
+Hlavní část kurzu je tvořena sedmi hlavními obsahovými bloky, z~nichž se každý zabývá jedním určitým tématem, které na sebe přímo navazují a~představují tak hrubou strukturu online kurzu (viz Obrázek \ref{digi-bloky}). Od studenta se tedy očekává lineární postup směrem od prvního do poslední obsahového bloku, nicméně je i~tak studujícímu umožněno procházet libovolný blok dle aktuálních potřeb (a~to ať už ty minulé např. z~důvodu ujasnění si již probraných témat nebo ty nenavštívené např. kvůli zjištění celkové časové náročnosti kurzu).
+
+Mimo tyto ústřední bloky e-learning na začátku obsahuje úvodní text, jehož cílem je studenta navnadit ke studiu a~v~co největší stručnosti popsat obsah celého kurzu. Zároveň je pod touto úvodní kartou umístěn malý ukazatel progresu s~počtem splněných aktivit (viz další odstavec) spolu s~podkartou \emph{Užitečný tip}, která slouží v~rámci ekosystému kurzů Digiskills k~nasměrování na integrovaného chatbota (viz Obrázek \ref{digi-uvod}).
 
 \begin{figure}[ht]   
     \centering
     \includegraphics[width=\textwidth]{digi-uvod}  
-    \caption{Úvodní obrazovka s~představením kurzu spolu s~ukazatelem progresu a~podkartou Užitečný tip}
+    \caption{Úvodní obrazovka s~představením kurzu spolu s~ukazatelem progresu a~s~podkartou týkající se užitečného tipu}
     \label{digi-uvod}
 \end{figure}
 
@@ -22,9 +24,9 @@ Základní jednotkou kurzu jsou pak již zmíněné aktivity, jež jsou vždy za
 \begin{itemize}
 \tightlist
 \item
-  úvodní aktivita, která uvádí studenta do daného tématu a~kontextualizuje jej v~rámci aktivit minulých a~případně následujících;
+  úvodní aktivita, která představuje studentovi dané téma a~kontextualizuje jej v~rámci aktivit minulých a~následujících;
 \item
-  1--3 aktivity zpracovávající část tématu prostřednictvím některé z~vybraných edukačních komponent;
+  1--3 aktivity zpracovávající konkrétní část tématu;
 \item
   1--2 závěrečné aktivity, jež shrnují dané téma a~pobízí studenta k~vlastní práci ať už prostřednictvím kvízů či praktických úkolů (viz Obrázek \ref{digi-aktivity}).
 \end{itemize}
@@ -49,6 +51,26 @@ Základní jednotkou kurzu jsou pak již zmíněné aktivity, jež jsou vždy za
     \caption{Závěrečná aktivita, která obsahuje zadání praktického úkolu}
     \label{digi-aktivity}
 \end{figure}
+
+Všechny aktivity lze dále kategorizovat podle svého typu, který determinuje, jaká edukační komponenta je v~dané aktivitě využita. Kromě typů \emph{nahrát soubor} a~\emph{test typeform} (viz níže) musí student po dokončení vybrané aktivity vždy zatrhnout políčko \emph{Označit aktivitu za splněnou}, které aktualizuje progres studenta a~přesměruje ho na následující aktivitu.
+
+V~našem online kurzu využíváme výhradně těchto pět typů aktivit, které jsme pro účely tohoto e-learningu vytvořili na základě výsledků z~provedené přehledové studie online kurzů:
+
+\begin{itemize}
+\tightlist
+\item
+  \emph{přečíst text} -- student musí pro splnění tohoto typu aktivity přečíst textový materiál, který je typicky doplněn o~vizualizace, jež téma obsahově doplňují, případně jej formálně člení pro větší přehlednost;
+\item
+  \emph{zhlédnout video} -- v~těchto aktivitách musí student zhlédnout video, které nejčastěji vysvětluje danou problematiku prostřednictvím praktické ukázky;
+\item
+  \emph{vložit text} -- tyto aktivity rozšiřují první typ, tedy textový materiál doplňují o~textové pole, do nějž musí student zadat odpověď na otázku vztahující se k~tématu;
+\item
+  \emph{nahrát soubor} -- aktivity tohoto typu jsou umístěny za výukovými videy, protože v~rámci nich student odevzdává vlastní vypracovanou práci spolu s~krátkou textovou reflexí\footnote{Krátkou reflexi jsme po odevzdání praktických úkolů začlenili z~toho důvodu, aby měl student možnost zapřemýšlet nad nově nabytými dovednostmi a~případnými nejasnostmi, které mohou spojeny buď s~probíranou problematikou anebo s~formátem samotného kurzu.};
+\item
+  \emph{test typeform} -- v~těchto aktivitách student vypracovává krátký kvíz, jehož cílem je připomenout hlavní znalosti a~dovednosti, které si v~rámci minulých aktivit student osvojil.
+\end{itemize}
+
+Obsahové bloky (spolu s~jejich vnořenými aktivitami) dále dělíme podle toho, jaký vzdělávací cíl splňují, a~tedy zda spadají do teoreticky nebo prakticky zaměřené části kurzu. Student nejprve prochází dva teoretické bloky \emph{Úvod aneb ‚‚Co je to vlastně datová analytika`\,`} a~\emph{Data, data a~zase data}, v~rámci kterých
 
 \hypertarget{komponenty}{%
 \section{Komponenty}\label{komponenty}}
