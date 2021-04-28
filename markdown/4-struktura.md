@@ -84,6 +84,26 @@ V poslední aktivitě jsme se pak zmínili o příbuzných pojmech, které se s 
 
 ### Data, data a zase data
 
-Druhý teoretický obsahový blok zpracovává problematiku spojenou s definicí dat – snaží se studentovi vysvětlit, co si pod pojmem data představit a jakým způsobem lze data dělit a kategorizovat podle daných potřeb. V této sekci již studenta uvádíme do tématu prostřednictvím krátkého popularizačního videa a následně pomocí stručného článku pobízíme k zamyšlení, s jakým typem dat student vlastně nejčastěji pracuje.
+Druhý teoretický obsahový blok zpracovává problematiku spojenou s definicí dat – snaží se studentovi vysvětlit, co si lze pod pojmem data představit a jakým způsobem můžeme data dělit a kategorizovat podle daných potřeb. V této sekci již studenta uvádíme do tématu prostřednictvím krátkého popularizačního videa a následně pomocí stručného článku pobízíme k zamyšlení, s jakým typem dat student nejčastěji pracuje ve svém prostředí.
 
-Na závěr modulu představujeme obsah praktické části kurzu, kterým je proces datové analytiky. Ve videu popisujeme jednotlivé fáze procesu a snažíme se akcentovat fakt, že data nejsou totéž co informace, ale že ze surových dat informace získáváme právě prostřednictvím analýzy a následné vizualizace. Tato část tak splňuje třetí vzdělávací cíl kurzu (viz cíle \ref{3-cil}).
+Na závěr modulu představujeme obsah praktické části kurzu, kterým je proces datové analytiky. Ve videu popisujeme jednotlivé fáze procesu a snažíme se akcentovat fakt, že data nejsou totéž co informace, ale že ze surových dat informace získáváme právě prostřednictvím analýzy a následné vizualizace. Tato část tak splňuje třetí a částečně čtvrtý vzdělávací cíl kurzu (viz cíle \ref{3-cil} a \ref{4-cil}).
+
+### Získávání a import dat
+
+V tomto modulu je studentovi představen první krok datové analytiky, jenž se zabývá importem dat. Na začátku obsahového bloku je nejprve popsána problematika týkající se formátů dat. Popisujeme základní charakteristiky textových a binárních souborů a uvádíme základní příklady souborových přípon spolu s jejich využitím. Na konci první aktivity rozlišujeme dva nejčastěji používané textové formáty pro uchovávání tabulkových dat s příponami *.csv* a *.tsv*, se kterými následně pracujeme v praktické demonstraci.
+
+Hlavní částí tohoto modulu je demonstrační video, v rámci kterého na konkrétním modelovém datasetu\footnote{Zjednodušený dataset obsahuje fiktivní data vztahující se k provedeným objednávkám určité organizace. Každý záznam objednávky je tvořen těmito atributy: jméno prodejce, region, účet, částka, měsíc a datum (atribut datum jsme zde přidali pro účely zpracování speciálního datového typu.)} z fiktivního firemního prostředí představujeme možnosti importu dat. Ohledně výběru datasetu jsme se inspirovali přístupy z analyzovaných online kurzů, nicméně jsme jej upravili tak, aby co nejvíce vyhovoval naší cílové skupině začátečníků.
+
+Po zhlednutí výukového videa, je pak student vyzván k aplikaci nabytých dovedností na stejném datasetu, který jsme použili v demonstraci. V tomto prvním úkolu ještě není po studujícím vyžadovaná žádná velká invence, jde primárně o testovací úkol na přípravu vlastního prostředí a na ozkoušení funkčnosti samotné *odevzdávárny*.
+
+Na konci tohoto modulu by tak mělo být studentovi zřejmé, že jednotlivé fáze datové analytiky na sebe navazují, a je proto zapotřebí vypracovat daný úkol vždy korektním způsobem (tedy alespoň tak, jak je znázorněno v daném demonstračním videu), protože se v dalších praktických částech vychází vždy z výsledků předešlého modulu. Tento obsahový blok naplňuje pátý vzdělávací cíl kurzu\footnote{S ohledem na skutečnost, že se všechny praktické moduly týkají procesu datové analytiky, naplňují vždy současně i čtvrtý cíl kurzu viz cíl \ref{4-cil}.} (viz cíl \ref{5-cil}).
+
+### Čištění dat
+
+Obsahový blok zabývající se čištěním dat pokládáme za jeden z nejdůležitějších, přestože se tohle téma v jiných online kurzech neobjevuje příliš často. Vycházíme z toho, že je na tomto kroku přímo závislá kvalita vlastní analýzy dat, protože se nepřesnosti ve vstupních datech lehce propisují do jednotlivých vztahů napříč daty. Tento fakt se snažíme studentovi představit v úvodní aktivitě, která se prostřednictvím textového materiálu snaží poukázat na nejčastější chyby v datech a na způsoby jejich řešení.
+
+V další části v demonstračním videu využíváme tyto znalosti k opravení nejdůležitějších chyb v našem modelovém datasetu. Výstupem z této části by měla být očištěná tabulková data, která lze dále efektivně zpracovávat. V tuto chvíli je již studentovi dán v rámci praktického úkolu větší prostor, protože je pobídnut k opravě většího množství chyb, než bylo vyřešeno v ukázce. Taktéž zde pracujeme s jednoduchou formou zpětné vazby, protože se zde studujícího ptáme na jeho subjektivní pohled týkající se obtížnosti problematiky.
+
+Nakonec v tomto modulu zavádíme první kvíz, který připomíná základní otázky týkající se dat, jejich importu a čištění. Tato celá část pracuje s šestým cílem (viz cíl \ref{6-cil}).
+
+### Analýza dat
