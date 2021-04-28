@@ -6,7 +6,7 @@ V~poslední kapitole si představíme vytvořený online kurz pro výuku datové
 \hypertarget{prux16fchod}{%
 \section{Průchod}\label{prux16fchod}}
 
-V~první částí se zaměříme na obecný průchod kurzem -- popíšeme si, jak je kurz navržen po strukturální stránce a~jakým způsobem student prochází jednotlivými částmi.
+V~první částí se zaměříme na obecný průchod kurzem -- popíšeme si, jak je kurz navržen po strukturální stránce a~jakým způsobem student prochází jednotlivými částmi\footnote{V současné chvíli probíhá redesign webových stránek firmy Digiskills, proto se mohou některé přiložené obrázky lehce vizuálně lišit od aktuální podoby kurzu.}.
 
 Hlavní část kurzu je tvořena sedmi hlavními obsahovými bloky, z~nichž se každý zabývá jedním určitým tématem, které na sebe přímo navazují a~představují tak hrubou strukturu online kurzu (viz Obrázek \ref{digi-bloky}). Od studenta se tedy očekává lineární postup směrem od prvního do poslední obsahového bloku, nicméně je i~tak studujícímu umožněno procházet libovolný blok dle aktuálních potřeb (a~to ať už ty minulé např. z~důvodu ujasnění si již probraných témat nebo ty nenavštívené např. kvůli zjištění celkové časové náročnosti kurzu).
 
@@ -112,7 +112,7 @@ Na závěr modulu představujeme obsah praktické části kurzu, kterým je proc
 
 V~tomto modulu je studentovi představen první krok datové analytiky, jenž se zabývá importem dat. Na začátku obsahového bloku je nejprve popsána problematika týkající se formátů dat. Popisujeme základní charakteristiky textových a~binárních souborů a~uvádíme základní příklady souborových přípon spolu s~jejich využitím. Na konci první aktivity rozlišujeme dva nejčastěji používané textové formáty pro uchovávání tabulkových dat s~příponami \emph{.csv} a~\emph{.tsv}, se kterými následně pracujeme v~praktické demonstraci.
 
-Hlavní částí tohoto modulu je demonstrační video, v~rámci kterého na konkrétním modelovém datasetu\footnote{Zjednodušený dataset obsahuje fiktivní data vztahující se k~provedeným objednávkám určité organizace. Každý záznam objednávky je tvořen těmito atributy: jméno prodejce, region, účet, částka, měsíc a~datum (atribut datum jsme zde přidali pro účely zpracování speciálního datového typu.)} z~fiktivního firemního prostředí představujeme možnosti importu dat. Ohledně výběru datasetu jsme se inspirovali přístupy z~analyzovaných online kurzů, nicméně jsme jej upravili tak, aby co nejvíce vyhovoval naší cílové skupině začátečníků.
+Hlavní částí tohoto modulu je demonstrační video, v~rámci kterého na konkrétním modelovém datasetu\footnote{Zjednodušený dataset obsahuje data vztahující se k~provedeným objednávkám fiktivní organizace. Každý záznam objednávky je tvořen těmito atributy: jméno prodejce, region, účet, částka, měsíc a~datum (atribut datum jsme zde přidali pro účely zpracování speciálního datového typu.)} z~fiktivního firemního prostředí představujeme možnosti importu dat. Ohledně výběru datasetu jsme se inspirovali přístupy z~analyzovaných online kurzů, nicméně jsme jej upravili tak, aby co nejvíce vyhovoval naší cílové skupině začátečníků.
 
 Po zhlednutí výukového videa, je pak student vyzván k~aplikaci nabytých dovedností na stejném datasetu, který jsme použili v~demonstraci. V~tomto prvním úkolu ještě není po studujícím vyžadovaná žádná velká invence, jde primárně o~testovací úkol na přípravu vlastního prostředí a~na ozkoušení funkčnosti samotné \emph{odevzdávárny}.
 
@@ -129,3 +129,19 @@ Nakonec v~tomto modulu zavádíme první kvíz, který připomíná základní o
 
 \hypertarget{analuxfdza-dat}{%
 \subsection{Analýza dat}\label{analuxfdza-dat}}
+
+Modul zpracovávající problematiku analýzy dat je klíčový z~hlediska tvorby nových informací z~očištěných dat. V~této částí studentovi téma rovnou představujeme pomocí výukového videa, v~rámci kterého ukazujeme, jakým způsobem lze vytvářet vztahy napříč daty. Pro účely této ukázky využíváme kontingenční tabulky, které nám umožňují vytvářet nové \emph{podtabulky} na základě filtrů, numerických operací a~dalších metod pro analýzu dat. Tyto \emph{podtabulky} pak slouží jako zdroj dat pro grafy a~další vizualizace, protože obsahují právě ty informace, které jsou užitečné pro rozhodování založeném na datovém základě.
+
+Student má v~tomto modulu za úkol provést vlastní analýzu dat, nemusí se ale přímo vázat na konkrétní příklady z~ukázky. Naopak je motivován k~hledání zajímavějších vztahů napříč daty a~k~experimentům nad funkcemi kontingenčních tabulek. Zároveň je od studenta znovu vyžadována zpětná vazba (která částečně plní funkci reflexe) na pocity, které se s~tvorbou analýzy pojily a~případně ve kterých částech se studující cítil frustrován. Celkově tento modul naplňuje sedmý vzdělávací cíl kurzu (viz cíl \ref{7-cil}).
+
+\hypertarget{vizualizace-a-prezentace-dat}{%
+\subsection{Vizualizace a~prezentace dat}\label{vizualizace-a-prezentace-dat}}
+
+Závěrečná část procesu datové analytiky se týká vizualizace a~prezentace dat. Tento modul je patrně nejrozsáhlejší, protože v~sobě obsahuje jak základní teorii k~tvorbě grafů, tak i~praktické cvičení vztahující se k~základním vizualizačním technikám. V~první aktivitě je student seznámen s~pojmem \emph{dashboard}\footnote{Zde jsme akcentovali otázku týkající se různorodosti příjemců informací. Tedy že si je zapotřebí být vždy při prezentaci dat vědom toho, jak zkušení uživatelé tento výstup přijímají a~podle toho volit složitost daných vizualizací.} a~jsou zde představeny základní typy grafů spolu s~příklady otázek, na něž jednotlivé grafy typicky odpovídají.
+
+Na tento teoretický text přímo navazuje poslední demonstrační video, které představuje základní principy a~možnosti vizualizace dat v~našem kontextu. Důraz se v~tomto případě klade i~na interaktivitu výsledné vizualizace, tedy aby bylo možné data v~rámci konečného \emph{dashboardu} částečně měnit na základě nově položené otázky. I~v~tomto posledním praktickém úkolu je student pobídnut k~tvorbě vlastního originálního řešení, předcházející video by mu mělo tak sloužit pouze jako inspirace a~základní osnova. A~stejně jako v~minulém modulu je od něj vyžadována zpětná vazba týkající se silných a~slabých stránek při tvorbě vizualizace. Tento předposlední obsahový modul splňuje osmí cíl kurzu (viz cíl \ref{8-cil}).
+
+\hypertarget{zuxe1vux11br-kurzu}{%
+\subsection{Závěr kurzu}\label{zuxe1vux11br-kurzu}}
+
+Poslední modul si klade za cíl celkově shrnout obsah kurzu a~nabídnout studentovi inspiraci pro případné navazující studium v~kontextu jiných analytických nástrojů. Druhou podstatnou částí je závěrečný kvíz, který se už netýká žádného z~témat spojených s~datovou analytikou, ale zaměřuje na získání zpětné vazby ke kurzu. Prostřednictvím odpovědí z~tohoto dotazníku můžeme dále případně modifikovat obsah, pozměnit formu úkolů, případně přidat další související témata. Tento poslední modul tak odpovídá poslednímu vzdělávacímu cíli (viz cíl \ref{9-cil}).
