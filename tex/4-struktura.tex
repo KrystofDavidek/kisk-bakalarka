@@ -1,138 +1,147 @@
-\part{Praktická část}
+\hypertarget{obsah-kurzu}{%
+\chapter{Obsah kurzu}\label{obsah-kurzu}}
 
-\hypertarget{koncept-kurzu}{%
-\chapter{Koncept kurzu}\label{koncept-kurzu}}
+V~poslední kapitole si představíme vytvořený online kurz pro výuku datové analytiky. Tuto kapitolu dělíme do několika vzájemně provázaných částí, z~nichž každá reflektuje odlišnou oblast návrhu a~implementace online kurzu.
 
-Ve druhé části této bakalářské práce se budeme zabývat představením vlastního online kurzu zaměřeného na výuku základů datové analytiky. Ve dvou následujících kapitolách si popíšeme návrh a~implementaci našeho e-learningu z~hlediska dvou různých rovin, a~to konceptuální a~obsahové.
+\hypertarget{prux16fchod}{%
+\section{Průchod}\label{prux16fchod}}
 
-Našim cílem v~této praktické části bude tedy jednak uvést motivaci a~cíle vztahující se k~tvorbě online kurzu, ale také přehledným způsobem popsat, z~jakých komponent se náš kurz skládá a~jaké vzdělávací prvky obsahuje. Na závěr také představíme jednotlivé obsahové moduly a~podobně je jako primární cíle kurzu zarámujeme do revidované Bloomovy taxonomie vzdělávacích cílů.
+V~první částí se zaměříme na obecný průchod kurzem -- popíšeme, jak je kurz navržen po strukturální stránce a~jakým způsobem student prochází jednotlivými částmi\footnote{V současné chvíli probíhá redesign webových stránek firmy Digiskills, proto se mohou některé přiložené obrázky lehce vizuálně lišit od aktuální podoby kurzu.}.
 
-\hypertarget{motivace}{%
-\section{Motivace}\label{motivace}}
+Hlavní část kurzu je tvořena sedmi hlavními obsahovými bloky, z~nichž se každý zabývá jedním určitým tématem, které na sebe přímo navazují a~představují tak hrubou strukturu online kurzu (viz Obrázek \ref{digi-bloky}). Od studenta se tedy očekává lineární postup směrem od prvního do poslední obsahového bloku, nicméně je i~tak studujícímu umožněno procházet libovolný blok dle aktuálních potřeb (a~to ať už ty minulé např. z~důvodu ujasnění si již probraných témat nebo ty nenavštívené např. kvůli zjištění celkové časové náročnosti kurzu).
 
-Online kurz vznikl pod záštitou firmy Digiskills\footnote{https://www.digiskills.cz/}, která se zabývá rozvojem digitálních kompetencí primárně v~korporátním prostředí. Portfolio služeb firmy Digiskills se dá vydělit do dvou hlavních částí. Jednak svým klientům nabízí takzvaný \emph{digiskills-assessment} -- jinými slovy audit digitálních dovedností, jehož cílem je zmapovat silné a~slabé stránky u~dané organizace a~nabídnout konkrétní aktivity na zlepšení digitálních kompetencí.
+Mimo tyto ústřední bloky e-learning na začátku obsahuje úvodní text, jehož cílem je studenta motivovat ke studiu a~v~co největší stručnosti popsat obsah celého kurzu. Zároveň je pod touto úvodní kartou umístěn malý ukazatel progresu s~počtem splněných aktivit (viz další odstavec) spolu s~podkartou \emph{Užitečný tip}, která slouží v~rámci ekosystému kurzů Digiskills k~nasměrování na integrovaného chatbota (viz Obrázek \ref{digi-uvod}).
 
-Druhým a~také hlavním produktem jsou pak online kurzy, které se převážně zaměřují na oblasti týkající se používání konkrétních nástrojů (jde například o, MS Teams, Office 365, Google Workspace nebo MS Power BI) a~na témata spojená s~digitálními kompetencemi (např. digitální produktivita, bezpečnost a~soukromí nebo efektivní práce z~domu). I~přes to, že některé tyto kurzy problematiku datové analytiky částečně reflektují, žádný z~nich ji nepojímá v~širším kontextu pro úplné začátečníky.
+\begin{figure}[h]   
+    \centering
+    \includegraphics[width=\textwidth]{digi-uvod}  
+    \caption{Úvodní obrazovka s~představením kurzu spolu s~ukazatelem progresu a~s~podkartou týkající se užitečného tipu.}
+    \label{digi-uvod}
+\end{figure}
 
-Proto vznikla motivace vytvořit v~českém prostředí takový online vzdělávací kurz, který se zabývá fundamentálními základy datové analytiky a~cílovým organizacím (případně jejich interním týmům anebo jednotlivým zaměstnancům) srozumitelně vysvětluje, k~čemu je datová analytika důležitá a~na základě jakých potřeb si je vhodné osvojit její základy.
-
-Samotný kurz\footnote{V ekosystému kurzů firmy Digiskills se komplexnější online kurzy nazývají Digitální akademie – jde ale o~pouhou konvenci firmy, tzn. pro účely tohoto textu není tohle označení podstatné a~nebudeme jej používat.} vznikal za spolupráce s~firmou Digiskills, která nám při návrhu a~implementaci poskytla potřebnou infrastrukturu (primárně webové šablony a~technické vybavení) a~příležitostnou konzultaci, týkající se primárně charakteristiky cílové skupiny a~škálování technické náročnosti. Všechna ostatní rozhodnutí týkající se designu kurzu byla ponechána na nás.
-
-\hypertarget{cuxedle}{%
-\section{Cíle}\label{cuxedle}}
-
-Při definování vzdělávacích cílů vycházíme z~revidované Bloomovy taxonomie kognitivních vzdělávacích cílů, která byla představena v~roce 2001 a~jež se více přibližuje konstruktivistickému charakteru vzdělávání~\parencite{bloom2}. Na rozdíl od svého předchůdce z~roku 1956 tato revidovaná taxonomie mimo jiné popisuje dimenze kognitivních procesů prostřednictvím činných sloves (a~nikoliv pomocí podstatných jmen, jak tomu bylo dříve), u~nichž dále nabízí konkrétní alternativní pojmenování a~vymezení. Druhou podstatnou změnou je přesun hierarchicky nejvyšší kategorie \emph{hodnotit} (v~původní taxonomii \emph{hodnocení}) pod novou kategorii \emph{tvořit}, která zase vychází z~původní kategorie \emph{syntéza}~\parencite{vavra11}.
-
-Níže uvádíme výčet devíti vzdělávacích cílů kurzu, které se vždy týkají jedné ze dvou hlavních oblastí.
+Základní jednotkou kurzu jsou již zmíněné aktivity, jež jsou vždy zanořeny do daného obsahového bloku (viz Obrázek \ref{digi-blok}). Těchto aktivit je v~celém kurzu v~současné chvíli 23 a~jsou do jednotlivých bloků logicky uspořádány dle následující šablony:
 
 \begin{itemize}
 \tightlist
 \item
-  Teoretická část -- témata diskutující základní terminologii a~motivaci spojenou s~datovou analytikou spolu s~úvodem do problematiky týkající se dat:
-
-  \begin{enumerate}
-  \def\labelenumi{\arabic{enumi}.}
-  \tightlist
-  \item
-    student je schopen ilustrovat na fiktivním příkladu důležitost datové analytiky v~modelovém prostředí určité organizace -- kategorie \emph{porozumět} (\emph{dávat příklady})\label{1-cil};
-  \item
-    student je schopen rozlišit významy pojmů vztahující se k~datové analytice a~k~příbuzným disciplínám -- kategorie \emph{porozumět} (\emph{klasifikovat})\label{2-cil};
-  \item
-    student je schopen kategorizovat jednotlivé typy dat a~základní datové formáty používané v~rámci tabulkových dat -- kategorie \emph{porozumět} (\emph{srovnávat})\label{3-cil}.
-  \end{enumerate}
+  úvodní aktivita, která představuje studentovi dané téma a~kontextualizuje jej v~rámci aktivit minulých a~následujících;
 \item
-  Praktická část -- témata týkající se jednotlivých částí procesu datové analytiky spolu s~výčtem dalších analytických nástrojů:
-
-  \begin{enumerate}
-  \def\labelenumi{\arabic{enumi}.}
-  \setcounter{enumi}{3}
-  \tightlist
-  \item
-    student je schopen vysvětlit, z~jakých částí se skládá proces datové analytiky a~zdůvodnit existenci jednotlivých části -- kategorie \emph{porozumět} (\emph{interpretovat})\label{4-cil};
-  \item
-    student je schopen použít základní techniky importování dat nehledě na využívaný nástroj -- kategorie \emph{aplikovat} (\emph{realizovat})\label{5-cil};
-  \item
-    student je schopen identifikovat chyby v~datech a~dovede tyto problémy řádně opravit -- kategorie \emph{analyzovat} (\emph{rozlišovat})\label{6-cil};
-  \item
-    student je schopen propojit jednotlivé části dat a~vytvořit na základě nich smysluplné vztahy -- kategorie \emph{analyzovat} (\emph{uspořádat})\label{7-cil};
-  \item
-    student je schopen vytvořit na základě analyzovaných dat novou informaci, kterou dovede komunikovat prostřednictvím jednoduché vizualizace -- kategorie \emph{analyzovat} (\emph{strukturovat})\label{8-cil};
-  \item
-    student je schopen vybrat konkrétní analytický nástroj na základě své informační potřeby -- kategorie \emph{porozumět} (\emph{srovnávat})\label{9-cil}.
-  \end{enumerate}
+  1--3 aktivity zpracovávající konkrétní část tématu;
+\item
+  1--2 závěrečné aktivity, jež shrnují dané téma a~pobízí studenta k~vlastní práci ať už prostřednictvím kvízů či praktických úkolů (viz Obrázek \ref{digi-aktivity}).
 \end{itemize}
 
-Jak je z~výše uvedeného seznamu patrné, v~kontextu revidované Bloomovy taxonomie se pohybujeme v~prvních čtyřech kategoriích kognitivních procesů -- \emph{pamatovat}, \emph{porozumět}, \emph{aplikovat} a~\emph{analyzovat}. Hlavní důvod pro tohle rozhodnutí je vybraná cílová skupina, kterou jsou primárně úplní začátečníci, jež si pod oblastí datové analytiky nic nepředstaví nebo o~ní mají pouze zdánlivou představu. Na druhou stranu spadá většina vzdělávacích cílů pod třetí kognitivní proces \emph{aplikovat}, protože hlavním požadavkem na kurz ze strany Digiskills měl být přesah do praktických úrovní datové analytiky.
+\begin{figure}[h]   
+    \centering
+    \includegraphics[width=\textwidth]{digi-bloky}  
+    \caption{Nerozbalený výčet všech obsahových bloků}
+    \label{digi-bloky}
+\end{figure}
 
-\hypertarget{kompetence}{%
-\section{Kompetence}\label{kompetence}}
+\begin{figure}[h]   
+    \centering
+    \includegraphics[width=\textwidth]{digi-blok}  
+    \caption{Vnořené aktivity vztahující se ke obsahovému bloku Vizualizace a~prezentace dat}
+    \label{digi-blok}
+\end{figure}
 
-Za účelem začlenění kurzu do některého z~kompetenčních rámců, můžeme využít výše popsané cíle, které jsme představili v~minulé podkapitole. Odhlédneme-li od těch částí obsahu, které partikulárně vychází z~výsledků přehledové studie online kurzů, můžeme náš kurz zakotvit primárně do dvou kompetenčních rámců.
+\begin{figure}[h]   
+    \centering
+    \includegraphics[width=\textwidth]{digi-aktivity}  
+    \caption{Závěrečná aktivita, která obsahuje zadání praktického úkolu}
+    \label{digi-aktivity}
+\end{figure}
 
-Již zmíněný sylabus \emph{ECDL / ICDL Data Analytics SYLABUS 1.0 (AM8)} se vztahuje primárně k~praktické části -- tedy k~cílům 4, 5, 6 a~7. Jak bylo zmíněno v~teoretické částí (viz sekce \ref{kompetenux10dnuxed-ruxe1mec}), jedná se o~modul, který je zaměřen na základy práce s~daty určený pro digitálně kvalifikovanou veřejnost. My z~tohoto sylabu využijeme všechny oblasti kompetencí kromě kategorie \emph{8.1 koncepce a~statistická analýza}\footnote{Zde můžeme využít akorát rozsah znalostí 8.1.1.2 a~8.1.1.3 v~rámci teoretické části, protože se jedná o~kompetence spojené s~chápáním hlavních přínosů datové analytiky a~teoretických znalosti jednotlivých fází.}, protože ta se zabývá statistickými pojmy, které nepovažujeme pro naše účely za příliš podstatné (resp. počítáme s~tím, že studenti disponují základními znalostmi matematiky ze základní školy a~dokážou pracovat se základními pojmy jako je například průměr, chápání složitější statistiky tedy není potřebné)~\parencite{ecdl17}.
+Všechny aktivity lze dále kategorizovat podle svého typu, který determinuje, jaká edukační komponenta je v~dané aktivitě využita. Kromě typů \emph{nahrát soubor} a~\emph{test typeform} (viz níže) musí student po dokončení vybrané aktivity vždy zatrhnout políčko \emph{Označit aktivitu za splněnou}, které aktualizuje progres studenta a~přesměruje ho na následující aktivitu.
 
-Díky tomuto vzdělávacímu sylabu máme zarámované praktické kompetence procesu datové analytiky do hlavních kategorií a~jejich zanořených oblastí znalostí:
+V~našem online kurzu využíváme výhradně těchto pět typů aktivit, které jsme pro účely tohoto e-learningu vytvořili na základě výsledků z~provedené přehledové studie online kurzů:
 
 \begin{itemize}
 \tightlist
 \item
-  příprava datového zdroje -- tuto kategorii v~našem online kurzu vydělujme do dvou částí, a~to do \emph{importu dat} a~\emph{čištění dat}, zde jsme inspirovali přístupy jiných kurzů, které začátečníkům tyto dvě fáze vysvětlují odděleně;
-
-  \begin{itemize}
-  \tightlist
-  \item
-    import, přizpůsobení importu;
-  \item
-    filtrování;
-  \end{itemize}
+  \emph{přečíst text} -- student musí pro splnění tohoto typu aktivity přečíst textový materiál, který je typicky doplněn o~vizualizace, jež téma obsahově doplňují, případně jej graficky člení pro větší přehlednost;
 \item
-  shrnování dat -- s~touto kategorií pracujeme v~kurzu pod názvem \emph{analýza dat}, terminologicky totiž lépe sedí do konceptu jiných kurzů zabývající procesem datové analytiky;
-
-  \begin{itemize}
-  \tightlist
-  \item
-    agregace dat v~kontingenční tabulce;
-  \item
-    frekvenční analýza v~kontingenční tabulce;
-  \item
-    filtrování kontingenční tabulky;
-  \item
-    používání kontingenčního grafu;
-  \end{itemize}
+  \emph{zhlédnout video} -- v~těchto aktivitách musí student zhlédnout video, které nejčastěji vysvětluje danou problematiku prostřednictvím praktických ukázek;
 \item
-  vizualizace dat;
-
-  \begin{itemize}
-  \tightlist
-  \item
-    koncepce a~nastavení;
-  \item
-    prvky vizualizace;
-  \item
-    publikování a~sdílení.
-  \end{itemize}
+  \emph{vložit text} -- tyto aktivity rozšiřují první typ, tedy textový materiál doplňují o~textové pole, do nějž musí student zadat odpověď na otázku vztahující se k~tématu;
+\item
+  \emph{nahrát soubor} -- aktivity tohoto typu jsou umístěny za výukovými videy, protože v~rámci nich student odevzdává vlastní vypracovanou práci spolu s~krátkou textovou reflexí\footnote{Krátkou reflexi jsme po odevzdání praktických úkolů začlenili z~toho důvodu, aby měl student možnost zapřemýšlet nad nově nabytými dovednostmi a~případnými nejasnostmi, které mohou spojeny buď s~probíranou problematikou anebo s~formátem samotného kurzu.};
+\item
+  \emph{test typeform} -- v~těchto aktivitách student vypracovává krátký kvíz, jehož cílem je připomenout hlavní znalosti a~dovednosti, které si v~rámci minulých aktivit osvojil. Při špatné odpovědi kvíz studenta naviguje ke konkrétní aktivitě, která látku vysvětluje, student může posléze svoji odpověď změnit a~znovu odpovídat (viz Obrazek \ref{digi-kviz} a~\ref{digi-kviz-0}).
 \end{itemize}
 
-Pro zarámování kompetencí, které se vztahují k~prvním třem a~také poslednímu vzdělávacímu cíli, využijeme obecnější model \emph{The seven pillars of information literacy: The core mode}, který nám umožňuje nahlížet na problematiku teoretické povahy datové analytiky z~hlediska informační gramotnosti.
+\begin{figure}[h]   
+    \centering
+    \includegraphics[width=\textwidth]{digi-kviz}  
+    \caption{Příklad otázky z~průběžného kvízu týkající se tématu analýza a~vizualizace dat}
+    \label{digi-kviz}
+\end{figure}
 
-Jak už bylo řečeno v~první kapitole (viz sekce \ref{datovuxe1-gramotnost}), tento model se skládá ze sedmi základních pilířů, z~nichž každý zastřešuje určitou sadu kompetencí, které jsou součástí informační (popřípadě datové) gramotnosti. Pro účely prvního a~třetího cíle jsou relevantní primárně první dva pilíře -- \emph{identify} (identifikace informační potřeby) a~\emph{scope} (posouzení stávajících znalostí a~jejich případných mezer)~\parencite{sconul11}.
+\begin{figure}[h]   
+    \centering
+    \includegraphics[width=\textwidth]{digi-kviz-0}  
+    \caption{Příklad otázky z~průběžného kvízu týkající se tématu analýza a~vizualizace dat}
+    \label{digi-kviz-0}
+\end{figure}
 
-První cíl týkající se motivace pro využívání datové analytiky je dle našeho názoru zahrnutý v~prvním a~druhém pilíři, a~to konkrétně v~těchto kompetencích:
+Pro úspěšný průchod celým kurzem je zapotřebí mít splněné všechny dílčí aktivity včetně kvízů a~korektně odevzdané všechny praktické úkoly. Kurz byl navržen tak, aby byly všechny odevzdané úkoly zkontrolovány pověřenou osobou -- chceme tak docílit k~poskytnutí individuální zpětné vazby každému jednotlivému studentovi.
 
-\begin{itemize}
-\tightlist
-\item
-  \emph{zjištění nedostatku znalostí v~dané oblasti};
-\item
-  \emph{rozpoznání informační a~datové potřeby k~dosažení konkrétního cíle a~definování limitů této potřeby};
-\item
-  \emph{identifikování typu informace, který nejlépe vyhovuje k~naplnění dané potřeby}.
-\end{itemize}
+\hypertarget{moduly}{%
+\section{Moduly}\label{moduly}}
 
-Aby mohl kdokoliv vykonávat činnosti spojené s~datovou analytikou, musí si nejprve uvědomit určité mezery v~aktuálních znalostech (ať už jde o~kontext jednotlivce, týmu či celé organizace) a~být si přitom vědom informační/datové potřeby, která je impulzem pro nabytí nových informací (jinými slovy výsledků ze zpracovaných dat). V~praxi to tedy znamená, že by měl studující chápat důvody, kdy se vyplatí proces datové analytiky v~rámci své organizace provádět a~jaký typ znalostí tak může být získán.
+V~poslední podkapitole popíšeme jednotlivé obsahové bloky (dále jen moduly), které dělíme podle toho, jaký vzdělávací cíl splňují, a~tedy zda spadají do teoreticky nebo prakticky zaměřené části kurzu\footnote{Prostřednictvím celkové stylizace kurzu směřujeme k~co největší popularizaci tématu, proto jsou některé názvy jednotlivých obsahových bloků a~aktivit pojaty méně formálním způsobem.}.
 
-Kompetence, které jsou součástí třetího cíle (základní charakteristika dat a~datových formátů), lze částečně uchopit prostřednictvím druhého pilíře, který v~sobě znalost datových formátů implicitně obsahuje (jde o~kompetenci \emph{identifikování různých formátů, ve kterých jsou poskytovány informace}). Musíme ale pracovat s~obecnějším pojetím, protože význam formulace \emph{formát informací}, tak jak je popsán ve standardu, nemusí být nutně totožný s~datovým formátem, jak jej chápeme v~rámci datové analytiky.
+\hypertarget{uxfavod-aneb-co-je-to-vlastnux11b-datovuxe1-analytika}{%
+\subsection{Úvod aneb co je to vlastně datová analytika}\label{uxfavod-aneb-co-je-to-vlastnux11b-datovuxe1-analytika}}
 
-Uvědomujeme si tedy, že zvolený model informační gramotnosti \emph{The seven pillars of information literacy: The core mode} nebyl primárně navržen za účelem zarámování kompetencí online kurzů, které se týkají datové analytiky. Nicméně i~tak jsme se pokusili některé cíle našeho kurzu propojit s~navrženými kompetencemi modelu, a~znovu tak poukázat na vztah tématu našeho kurzu s~obecnějšími koncepty, jako jsou informační a~datová gramotnost.
+První teoretický modul si klade za cíl uvést studenta do kontextu celého kurzu -- představuje mu možnosti online prostředí, vysvětluje, jak probíhá průchod kurzem, a~uvádí osnovu kurzu. Ještě před samotnou teorií týkající se úvodních témat datové analytiky je student seznámen se skutečností, že v~druhé, praktické části kurzu, bude sám participovat na svém vlastním řešení, prostřednictvím kterého by si měl vyzkoušet základní techniky datové analytiky.
 
-Poslední dva nereflektované cíle, druhý (znalost příbuzných pojmů a~disciplín) a~devátý (znalost různých analytických nástrojů), jsou úzce svázány s~oblastí datové analytiky a~souvisí s~konkrétním pojmoslovím a~s~aktuálními trendy. Je proto značně obtížné začlenit tyto kompetence do určitého širšího rámce. Z~tohoto důvodu nám dává největší smysl tato témata zpracovat v~kontextu výsledků přehledové studie a~inspirovat se tak z~již existujících funkčních řešení.
+V~dalších částech tohoto modulu je co srozumitelným způsobem vysvětleno, proč je důležité datovou analytiku v~organizacích využívat a~jakou přidanou hodnotu může mít při tvorbě firemních rozhodnutí. V~této části jsme se také zaměřili na koncept \emph{datově orientované organizace}, v~rámci kterého jsme se snažili vztáhnout téma datové gramotnosti právě na organizační prostředí a~znovu tak studenta motivovat ke studiu datové analytiky.
+
+V~poslední aktivitě jsme se pak zmínili o~příbuzných pojmech, které se s~datovou analytikou pojí (např. \emph{Big Data} a~\emph{IoT}) a~jasně jsme vymezili příbuzené disciplíny jako jsou \emph{Data Science} a~\emph{Data Engineering}. Z~celkového hlediska tento modul naplňuje první dva vzdělávací cíle kurzu (viz cíle \ref{1-cil} a~\ref{2-cil}).
+
+\hypertarget{data-data-a-zase-data}{%
+\subsection{Data, data a~zase data}\label{data-data-a-zase-data}}
+
+Druhý teoretický obsahový blok zpracovává problematiku spojenou s~definicí dat -- snaží se studentovi vysvětlit, co si lze pod pojmem data představit a~jakým způsobem můžeme data dělit a~kategorizovat podle daných potřeb. V~této sekci již studenta uvádíme do tématu prostřednictvím krátkého popularizačního videa a~následně pomocí stručného článku pobízíme k~zamyšlení, s~jakým typem dat student nejčastěji pracuje ve svém prostředí.
+
+Na závěr modulu představujeme obsah praktické části kurzu, kterým je proces datové analytiky. Ve videu popisujeme jednotlivé fáze procesu a~snažíme se akcentovat fakt, že data nejsou totéž co informace, ale že ze surových dat informace získáváme právě prostřednictvím analýzy a~následné vizualizace. Tato část tak splňuje třetí a~částečně čtvrtý vzdělávací cíl kurzu (viz cíle \ref{3-cil} a~\ref{4-cil}).
+
+\hypertarget{zuxedskuxe1vuxe1nuxed-a-import-dat}{%
+\subsection{Získávání a~import dat}\label{zuxedskuxe1vuxe1nuxed-a-import-dat}}
+
+V~tomto modulu je studentovi představen první krok datové analytiky, jenž se zabývá importem dat. Na začátku obsahového bloku je nejprve popsána problematika týkající se formátů dat. Popisujeme základní charakteristiky textových a~binárních souborů a~uvádíme základní příklady souborových přípon spolu s~jejich využitím. Na konci první aktivity rozlišujeme dva nejčastěji používané textové formáty pro uchovávání tabulkových dat s~příponami \emph{.csv} a~\emph{.tsv}, se kterými následně pracujeme v~praktické ukázce.
+
+Hlavní částí tohoto modulu je demonstrační video, v~rámci kterého na konkrétním modelovém datasetu\footnote{Zjednodušený dataset obsahuje data vztahující se k~provedeným objednávkám fiktivní organizace. Každý záznam objednávky je tvořen těmito atributy: jméno prodejce, region, účet, částka, měsíc a~datum (atribut datum jsme zde přidali pro účely zpracování speciálního datového typu.)} z~fiktivního firemního prostředí představujeme možnosti importu dat. Ohledně výběru datasetu jsme se inspirovali přístupy z~analyzovaných online kurzů, nicméně jsme jej upravili tak, aby co nejvíce vyhovoval naší cílové skupině začátečníků.
+
+Po zhlednutí výukového videa je student vyzván k~aplikaci nabytých dovedností na stejném datasetu, který jsme použili v~demonstraci. V~tomto úkolu ještě není po studujícím vyžadovaná žádná velká invence, jde primárně o~zadání, jehož cílem je otestovat studentovo prostředí a~vyzkoušet funkčnost webové \emph{odevzdávárny}.
+
+Na konci tohoto modulu by tak mělo být studentovi zřejmé, že jednotlivé fáze datové analytiky na sebe navazují, a~je proto zapotřebí vypracovat daný úkol vždy korektním způsobem (tedy alespoň tak, jak je znázorněno v~daném demonstračním videu), protože se v~dalších praktických částech vychází vždy z~výsledků předešlého modulu. Tento obsahový blok naplňuje pátý vzdělávací cíl kurzu\footnote{S ohledem na skutečnost, že se všechny praktické moduly týkají procesu datové analytiky, naplňují vždy současně i~čtvrtý cíl kurzu viz cíl \ref{4-cil}.} (viz cíl \ref{5-cil}).
+
+\hypertarget{ux10diux161tux11bnuxed-dat}{%
+\subsection{Čištění dat}\label{ux10diux161tux11bnuxed-dat}}
+
+Obsahový blok zabývající se čištěním dat pokládáme za jeden z~nejdůležitějších, přestože se tohle téma v~jiných online kurzech neobjevuje příliš často. Vycházíme z~toho, že je na tomto kroku přímo závislá kvalita vlastní analýzy dat, protože se nepřesnosti ve vstupních datech lehce propisují do zkoumaných vztahů napříč daty. Tento fakt se snažíme studentovi představit v~úvodní aktivitě, která se prostřednictvím textového materiálu snaží poukázat na nejčastější chyby v~datech a~na způsoby jejich řešení.
+
+V~další části v~demonstračním videu využíváme tyto znalosti k~opravení nejdůležitějších chyb v~našem modelovém datasetu. Výstupem z~této části by měla být očištěná tabulková data, která lze dále efektivně zpracovávat. V~tuto chvíli je již studentovi dán v~rámci praktického úkolu větší prostor, protože je pobídnut k~opravě většího množství chyb, než bylo vyřešeno v~ukázce. Taktéž zde pracujeme s~jednoduchou formou zpětné vazby, protože se zde studujícího ptáme na jeho subjektivní pohled týkající se obtížnosti problematiky.
+
+Nakonec v~tomto modulu zavádíme první kvíz, který připomíná základní informace týkající se dat, jejich importu a~čištění. Tato celá část pracuje s~šestým cílem (viz cíl \ref{6-cil}).
+
+\hypertarget{analuxfdza-dat}{%
+\subsection{Analýza dat}\label{analuxfdza-dat}}
+
+Modul zpracovávající problematiku analýzy dat je klíčový z~hlediska tvorby nových informací z~očištěných dat. V~této částí studentovi téma rovnou představujeme pomocí výukového videa, v~rámci kterého ukazujeme, jakým způsobem lze zobrazovat vztahy napříč daty. Pro účely této ukázky využíváme nástroj kontingenční tabulky, který nám umožňuje vytvářet z~výchozího datasetu nové (kontingenční) tabulky a~na základě filtrů, numerických operací a~dalších metod pro analýzu dat zobrazovat vzájemné vztahy mezi daty. Tyto tabulky pak slouží jako zdroj dat pro grafy a~další vizualizace, protože obsahují právě ty informace, které jsou užitečné pro rozhodování založeném na datovém základě.
+
+Student má v~tomto modulu za úkol provést vlastní analýzu dat, nemusí se ale přímo vázat na konkrétní příklady z~ukázky. Naopak je motivován k~hledání zajímavějších vztahů napříč daty a~k~experimentům nad funkcemi kontingenčních tabulek. Zároveň je od studenta znovu vyžadována zpětná vazba (která částečně plní funkci reflexe) na pocity, které se s~tvorbou analýzy pojily, a~případně na konkrétní části, kde se studující cítil frustrován. Celkově tento modul naplňuje sedmý vzdělávací cíl kurzu (viz cíl \ref{7-cil}).
+
+\hypertarget{vizualizace-a-prezentace-dat}{%
+\subsection{Vizualizace a~prezentace dat}\label{vizualizace-a-prezentace-dat}}
+
+Závěrečná část procesu datové analytiky se týká vizualizace a~prezentace dat. Tento modul je patrně nejrozsáhlejší, protože v~sobě obsahuje jak základní teorii k~tvorbě grafů, tak i~praktické cvičení vztahující se k~základním vizualizačním technikám. V~první aktivitě je student seznámen s~pojmem \emph{dashboard}\footnote{Zde jsme akcentovali otázku týkající se různorodosti příjemců informací. To znamená, že by si měl být student při prezentaci dat vždy vědom toho, jak zkušení uživatelé tento výstup přijímají, a~podle toho volit složitost daných vizualizací.} a~jsou zde představeny základní typy grafů spolu s~příklady otázek, na něž jednotlivé grafy typicky odpovídají.
+
+Na tento teoretický text přímo navazuje poslední demonstrační video, které představuje základní principy a~možnosti vizualizace dat v~našem kontextu. Důraz se v~tomto případě klade i~na interaktivitu výsledné vizualizace, tedy aby bylo možné data v~rámci konečného \emph{dashboardu} částečně měnit na základě nově položené otázky. I~v~tomto posledním praktickém úkolu je student pobídnut k~tvorbě vlastního originálního řešení, předcházející video by mu mělo tak sloužit pouze jako inspirace a~základní osnova. A~stejně jako v~minulém modulu je od něj vyžadována zpětná vazba týkající se silných a~slabých stránek při tvorbě vizualizace. Tento předposlední obsahový modul splňuje osmí cíl kurzu (viz cíl \ref{8-cil}).
+
+\hypertarget{zuxe1vux11br-kurzu}{%
+\subsection{Závěr kurzu}\label{zuxe1vux11br-kurzu}}
+
+Poslední modul si klade za cíl celkově shrnout obsah kurzu a~nabídnout studentovi inspiraci pro případné navazující studium v~kontextu jiných analytických nástrojů. Druhou podstatnou částí je závěrečný kvíz, který se už netýká žádného z~témat spojených s~datovou analytikou, ale zaměřuje na získání zpětné vazby ke kurzu. Prostřednictvím odpovědí z~tohoto dotazníku můžeme dále případně modifikovat obsah, pozměnit formu úkolů, případně přidat další související témata. Tento poslední modul tak odpovídá poslednímu vzdělávacímu cíli (viz cíl \ref{9-cil}).
