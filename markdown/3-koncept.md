@@ -61,15 +61,15 @@ Pro zarámování kompetencí, které se vztahují k prvním třem a také posle
 
 Jak už bylo řečeno v první kapitole (viz sekce \ref{datovuxe1-gramotnost}), tento model se skládá ze sedmi základních pilířů, z nichž každý zastřešuje určitou sadu kompetencí, které jsou součástí informační (popřípadě datové) gramotnosti. Pro účely prvního a třetího cíle jsou relevantní primárně první dva pilíře – *identify* (identifikace informační potřeby) a *scope* (posouzení stávajících znalostí a jejich případných mezer) \parencite{sconul11}.
 
-První cíl týkající se motivace pro využívání datové analytiky je dle našeho názoru zahrnutý v prvním a druhém pilíři, a to konkrétně v těchto bodech:
+První cíl týkající se motivace pro využívání datové analytiky je dle našeho názoru zahrnutý v prvním a druhém pilíři, a to konkrétně v těchto kompetencích:
 
-- *Identify a lack of knowledge in a subject area*
-- *Recognise a need for information and data to achieve a specific end and define limits to the information need*
-- *Identify which types of information will best meet the need*
+- zjištění nedostatku znalostí v dané oblasti;
+- rozpoznání informační a datové potřeby k dosažení konkrétního cíle a definování limitů této potřeby;
+- identifikování typu informace, který nejlépe vyhovuje k naplnění dané potřeby.
 
 Aby mohl kdokoliv vykonávat činnosti spojené s datovou analytikou, musí si nejprve uvědomit určité mezery v aktuálních znalostech (ať už jde o kontext jednotlivce, týmu či celé organizace) a být si přitom vědom informační/datové potřeby, která je impulzem pro nabytí nových informací (jinými slovy výsledků ze zpracovaných dat). V praxi to tedy znamená, že by měl studující chápat důvody, kdy se vyplatí proces datové analytiky v rámci své organizace provádět a jaký typ znalostí tak může být získán.
 
-Kompetence, které jsou součástí třetího cíle (základní charakteristika dat a datových formátů), lze částečně uchopit prostřednictvím druhého pilíře, který v sobě znalost datových formátů implicitně obsahuje – *Identify different formats in which information may be provided*. Musíme ale pracovat s obecnějším pojetím, protože význam formulace *formát informací*, tak jak je popsán ve standardu, nemusí být nutně totožný s datovým formátem, jak jej chápeme v rámci datové analytiky. 
+Kompetence, které jsou součástí třetího cíle (základní charakteristika dat a datových formátů), lze částečně uchopit prostřednictvím druhého pilíře, který v sobě znalost datových formátů implicitně obsahuje (jde o kompetenci *identifikování různých formátů, ve kterých jsou poskytovány informace*). Musíme ale pracovat s obecnějším pojetím, protože význam formulace *formát informací*, tak jak je popsán ve standardu, nemusí být nutně totožný s datovým formátem, jak jej chápeme v rámci datové analytiky. 
 
 Uvědomujeme si tedy, že zvolený model informační gramotnosti *The seven pillars of information literacy: The core mode* nebyl primárně navržen za účelem zarámování kompetencí online kurzů, které se týkají datové analytiky. Nicméně i tak jsme se pokusili některé cíle našeho kurzu propojit s navrženými kompetencemi modelu, a znovu tak poukázat na vztah tématu našeho kurzu s obecnějšími koncepty, jako jsou informační a datová gramotnost.
 
