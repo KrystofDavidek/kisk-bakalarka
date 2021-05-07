@@ -4,7 +4,7 @@ V poslední kapitole si představíme vytvořený online kurz pro výuku datové
 
 ## Průchod
 
-V první částí se zaměříme na obecný průchod kurzem – popíšeme si, jak je kurz navržen po strukturální stránce a jakým způsobem student prochází jednotlivými částmi\footnote{V současné chvíli probíhá redesign webových stránek firmy Digiskills, proto se mohou některé přiložené obrázky lehce vizuálně lišit od aktuální podoby kurzu.}.
+V první částí se zaměříme na obecný průchod kurzem – popíšeme, jak je kurz navržen po strukturální stránce a jakým způsobem student prochází jednotlivými částmi\footnote{V současné chvíli probíhá redesign webových stránek firmy Digiskills, proto se mohou některé přiložené obrázky lehce vizuálně lišit od aktuální podoby kurzu.}.
 
 Hlavní část kurzu je tvořena sedmi hlavními obsahovými bloky, z nichž se každý zabývá jedním určitým tématem, které na sebe přímo navazují a představují tak hrubou strukturu online kurzu (viz Obrázek \ref{digi-bloky}). Od studenta se tedy očekává lineární postup směrem od prvního do poslední obsahového bloku, nicméně je i tak studujícímu umožněno procházet libovolný blok dle aktuálních potřeb (a to ať už ty minulé např. z důvodu ujasnění si již probraných témat nebo ty nenavštívené např. kvůli zjištění celkové časové náročnosti kurzu).
 
@@ -13,7 +13,7 @@ Mimo tyto ústřední bloky e-learning na začátku obsahuje úvodní text, jeho
 \begin{figure}[h]   
     \centering
     \includegraphics[width=\textwidth]{digi-uvod}  
-    \caption{Úvodní obrazovka s představením kurzu spolu s ukazatelem progresu a s podkartou týkající se užitečného tipu}
+    \caption{Úvodní obrazovka s představením kurzu spolu s ukazatelem progresu a s podkartou týkající se užitečného tipu.}
     \label{digi-uvod}
 \end{figure}
 
@@ -90,7 +90,7 @@ Na závěr modulu představujeme obsah praktické části kurzu, kterým je proc
 
 ### Získávání a import dat
 
-V tomto modulu je studentovi představen první krok datové analytiky, jenž se zabývá importem dat. Na začátku obsahového bloku je nejprve popsána problematika týkající se formátů dat. Popisujeme základní charakteristiky textových a binárních souborů a uvádíme základní příklady souborových přípon spolu s jejich využitím. Na konci první aktivity rozlišujeme dva nejčastěji používané textové formáty pro uchovávání tabulkových dat s příponami *.csv* a *.tsv*, se kterými následně pracujeme v praktické demonstraci.
+V tomto modulu je studentovi představen první krok datové analytiky, jenž se zabývá importem dat. Na začátku obsahového bloku je nejprve popsána problematika týkající se formátů dat. Popisujeme základní charakteristiky textových a binárních souborů a uvádíme základní příklady souborových přípon spolu s jejich využitím. Na konci první aktivity rozlišujeme dva nejčastěji používané textové formáty pro uchovávání tabulkových dat s příponami *.csv* a *.tsv*, se kterými následně pracujeme v praktické ukázce.
 
 Hlavní částí tohoto modulu je demonstrační video, v rámci kterého na konkrétním modelovém datasetu\footnote{Zjednodušený dataset obsahuje data vztahující se k provedeným objednávkám fiktivní organizace. Každý záznam objednávky je tvořen těmito atributy: jméno prodejce, region, účet, částka, měsíc a datum (atribut datum jsme zde přidali pro účely zpracování speciálního datového typu.)} z fiktivního firemního prostředí představujeme možnosti importu dat. Ohledně výběru datasetu jsme se inspirovali přístupy z analyzovaných online kurzů, nicméně jsme jej upravili tak, aby co nejvíce vyhovoval naší cílové skupině začátečníků.
 
@@ -108,7 +108,7 @@ Nakonec v tomto modulu zavádíme první kvíz, který připomíná základní i
 
 ### Analýza dat
 
-Modul zpracovávající problematiku analýzy dat je klíčový z hlediska tvorby nových informací z očištěných dat. V této částí studentovi téma rovnou představujeme pomocí výukového videa, v rámci kterého ukazujeme, jakým způsobem lze vytvářet vztahy napříč daty. Pro účely této ukázky využíváme kontingenční tabulky, které nám umožňují vytvářet nové *podtabulky* na základě filtrů, numerických operací a dalších metod pro analýzu dat. Tyto *podtabulky* pak slouží jako zdroj dat pro grafy a další vizualizace, protože obsahují právě ty informace, které jsou užitečné pro rozhodování založeném na datovém základě.
+Modul zpracovávající problematiku analýzy dat je klíčový z hlediska tvorby nových informací z očištěných dat. V této částí studentovi téma rovnou představujeme pomocí výukového videa, v rámci kterého ukazujeme, jakým způsobem lze zobrazovat vztahy napříč daty. Pro účely této ukázky využíváme nástroj kontingenční tabulky, který nám umožňuje vytvářet z výchozího datasetu nové (kontingenční) tabulky a na základě filtrů, numerických operací a dalších metod pro analýzu dat zobrazovat vzájemné vztahy mezi daty. Tyto tabulky pak slouží jako zdroj dat pro grafy a další vizualizace, protože obsahují právě ty informace, které jsou užitečné pro rozhodování založeném na datovém základě.
 
 Student má v tomto modulu za úkol provést vlastní analýzu dat, nemusí se ale přímo vázat na konkrétní příklady z ukázky. Naopak je motivován k hledání zajímavějších vztahů napříč daty a k experimentům nad funkcemi kontingenčních tabulek. Zároveň je od studenta znovu vyžadována zpětná vazba (která částečně plní funkci reflexe) na pocity, které se s tvorbou analýzy pojily, a případně na konkrétní části, kde se studující cítil frustrován. Celkově tento modul naplňuje sedmý vzdělávací cíl kurzu (viz cíl \ref{7-cil}).
 
