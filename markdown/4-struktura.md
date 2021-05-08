@@ -54,14 +54,14 @@ V našem online kurzu využíváme výhradně těchto pět typů aktivit, které
  - *nahrát soubor* – aktivity tohoto typu jsou umístěny za výukovými videy, protože v rámci nich student odevzdává vlastní vypracovanou práci spolu s krátkou textovou reflexí\footnote{Krátkou reflexi jsme po odevzdání praktických úkolů začlenili z toho důvodu, aby měl student možnost zapřemýšlet nad nově nabytými dovednostmi a případnými nejasnostmi, které mohou spojeny buď s probíranou problematikou anebo s formátem samotného kurzu.};
  - *test typeform* – v těchto aktivitách student vypracovává krátký kvíz, jehož cílem je připomenout hlavní znalosti a dovednosti, které si v rámci minulých aktivit osvojil. Při špatné odpovědi kvíz studenta naviguje ke konkrétní aktivitě, která látku vysvětluje, student může posléze svoji odpověď změnit a znovu odpovídat (viz Obrazek \ref{digi-kviz} a \ref{digi-kviz-0}).
 
-\begin{figure}[h]   
+\begin{figure}[hb!]   
     \centering
     \includegraphics[width=\textwidth]{digi-kviz}  
     \caption{Příklad otázky z průběžného kvízu týkající se tématu analýza a vizualizace dat}
     \label{digi-kviz}
 \end{figure}
 
-\begin{figure}[h]   
+\begin{figure}[hb!]   
     \centering
     \includegraphics[width=\textwidth]{digi-kviz-0}  
     \caption{Příklad otázky z průběžného kvízu týkající se tématu analýza a vizualizace dat}
