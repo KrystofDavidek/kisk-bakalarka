@@ -188,3 +188,5 @@ Z provedené analýzy tento přístup k výuce praktických dovedností vycház�
 Kromě výše zmíněných přístupů dále z analyzovaných kurzů využijeme ty části, které se týkají problematiky dat. Tohle téma bývá v praktických online kurzech často opomíjeno, případně se počítá, že se s ním student někde dříve setkal. Proto jej v našem kurzu přidáme k teoretické části pro dodání širšího kontextu před praktickými ukázkami.
 
 Za vedlejší přínos provedené analýzy považujeme seznam použitých edukačních prvků, které se ve vybraných kurzech objevovaly. Naprostá většina vzdělávacích materiálů je audiovizuální povahy, v praktických částech se pak jedná výhradně o videa. Pro naše účely je ale využitelný systém testů a kvízů, které tyto prvky doplňují či rozšiřují. Tento systém průběžné zpětné vazby se objevoval ve většině analyzovaných e-learningů a též ho přidáme do našeho online kurzu.
+
+Tímto uzavíráme teoretickou část této bakalářské práce a přesouváme se do druhé částí, kde výše popsané poznatky využijeme v návrhu a implementaci vlastního kurzu.
