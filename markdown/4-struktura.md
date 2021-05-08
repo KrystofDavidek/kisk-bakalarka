@@ -80,13 +80,13 @@ První teoretický modul si klade za cíl uvést studenta do kontextu celého ku
 
 V dalších částech tohoto modulu je co srozumitelným způsobem vysvětleno, proč je důležité datovou analytiku v organizacích využívat a jakou přidanou hodnotu může mít při tvorbě firemních rozhodnutí. V této části jsme se také zaměřili na koncept *datově orientované organizace*, v rámci kterého jsme se snažili vztáhnout téma datové gramotnosti právě na organizační prostředí a znovu tak studenta motivovat ke studiu datové analytiky.
 
-V poslední aktivitě jsme se pak zmínili o příbuzných pojmech, které se s datovou analytikou pojí (např. *Big Data* a *IoT*) a jasně jsme vymezili příbuzené disciplíny jako jsou *Data Science* a *Data Engineering*. Z celkového hlediska tento modul naplňuje první dva vzdělávací cíle kurzu (viz cíle \ref{1-cil} a \ref{2-cil}).
+V poslední aktivitě jsme se pak zmínili o příbuzných pojmech, které se s datovou analytikou pojí (např. *Big Data* a *IoT*) a jasně jsme vymezili příbuzené disciplíny jako jsou *Data Science* a *Data Engineering*. Z celkového hlediska tento modul naplňuje první dva vzdělávací cíle kurzu.
 
 ### Data, data a zase data
 
 Druhý teoretický obsahový blok zpracovává problematiku spojenou s definicí dat – snaží se studentovi vysvětlit, co si lze pod pojmem data představit a jakým způsobem můžeme data dělit a kategorizovat podle daných potřeb. V této sekci již studenta uvádíme do tématu prostřednictvím krátkého popularizačního videa a následně pomocí stručného článku pobízíme k zamyšlení, s jakým typem dat student nejčastěji pracuje ve svém prostředí.
 
-Na závěr modulu představujeme obsah praktické části kurzu, kterým je proces datové analytiky. Ve videu popisujeme jednotlivé fáze procesu a snažíme se akcentovat fakt, že data nejsou totéž co informace, ale že ze surových dat informace získáváme právě prostřednictvím analýzy a následné vizualizace. Tato část tak splňuje třetí a částečně čtvrtý vzdělávací cíl kurzu (viz cíle \ref{3-cil} a \ref{4-cil}).
+Na závěr modulu představujeme obsah praktické části kurzu, kterým je proces datové analytiky. Ve videu popisujeme jednotlivé fáze procesu a snažíme se akcentovat fakt, že data nejsou totéž co informace, ale že ze surových dat informace získáváme právě prostřednictvím analýzy a následné vizualizace. Tato část tak splňuje třetí a částečně čtvrtý vzdělávací cíl kurzu.
 
 ### Získávání a import dat
 
@@ -96,7 +96,7 @@ Hlavní částí tohoto modulu je demonstrační video, v rámci kterého na kon
 
 Po zhlednutí výukového videa je student vyzván k aplikaci nabytých dovedností na stejném datasetu, který jsme použili v demonstraci. V  tomto úkolu ještě není po studujícím vyžadovaná žádná velká invence, jde primárně o zadání, jehož cílem je otestovat studentovo prostředí a vyzkoušet funkčnost webové *odevzdávárny*.
 
-Na konci tohoto modulu by tak mělo být studentovi zřejmé, že jednotlivé fáze datové analytiky na sebe navazují, a je proto zapotřebí vypracovat daný úkol vždy korektním způsobem (tedy alespoň tak, jak je znázorněno v daném demonstračním videu), protože se v dalších praktických částech vychází vždy z výsledků předešlého modulu. Tento obsahový blok naplňuje pátý vzdělávací cíl kurzu\footnote{S ohledem na skutečnost, že se všechny praktické moduly týkají procesu datové analytiky, naplňují vždy současně i čtvrtý cíl kurzu viz cíl \ref{4-cil}.} (viz cíl \ref{5-cil}).
+Na konci tohoto modulu by tak mělo být studentovi zřejmé, že jednotlivé fáze datové analytiky na sebe navazují, a je proto zapotřebí vypracovat daný úkol vždy korektním způsobem (tedy alespoň tak, jak je znázorněno v daném demonstračním videu), protože se v dalších praktických částech vychází vždy z výsledků předešlého modulu. Tento obsahový blok naplňuje pátý vzdělávací cíl kurzu\footnote{S ohledem na skutečnost, že se všechny praktické moduly týkají procesu datové analytiky, naplňují vždy současně i čtvrtý cíl kurzu).
 
 ### Čištění dat
 
@@ -104,20 +104,20 @@ Obsahový blok zabývající se čištěním dat pokládáme za jeden z nejdůle
 
 V další části v demonstračním videu využíváme tyto znalosti k opravení nejdůležitějších chyb v našem modelovém datasetu. Výstupem z této části by měla být očištěná tabulková data, která lze dále efektivně zpracovávat. V tuto chvíli je již studentovi dán v rámci praktického úkolu větší prostor, protože je pobídnut k opravě většího množství chyb, než bylo vyřešeno v ukázce. Taktéž zde pracujeme s jednoduchou formou zpětné vazby, protože se zde studujícího ptáme na jeho subjektivní pohled týkající se obtížnosti problematiky.
 
-Nakonec v tomto modulu zavádíme první kvíz, který připomíná základní informace týkající se dat, jejich importu a čištění. Tato celá část pracuje s šestým cílem (viz cíl \ref{6-cil}).
+Nakonec v tomto modulu zavádíme první kvíz, který připomíná základní informace týkající se dat, jejich importu a čištění. Tato celá část pracuje s šestým cílem.
 
 ### Analýza dat
 
 Modul zpracovávající problematiku analýzy dat je klíčový z hlediska tvorby nových informací z očištěných dat. V této částí studentovi téma rovnou představujeme pomocí výukového videa, v rámci kterého ukazujeme, jakým způsobem lze zobrazovat vztahy napříč daty. Pro účely této ukázky využíváme nástroj kontingenční tabulky, který nám umožňuje vytvářet z výchozího datasetu nové (kontingenční) tabulky a na základě filtrů, numerických operací a dalších metod pro analýzu dat zobrazovat vzájemné vztahy mezi daty. Tyto tabulky pak slouží jako zdroj dat pro grafy a další vizualizace, protože obsahují právě ty informace, které jsou užitečné pro rozhodování založeném na datovém základě.
 
-Student má v tomto modulu za úkol provést vlastní analýzu dat, nemusí se ale přímo vázat na konkrétní příklady z ukázky. Naopak je motivován k hledání zajímavějších vztahů napříč daty a k experimentům nad funkcemi kontingenčních tabulek. Zároveň je od studenta znovu vyžadována zpětná vazba (která částečně plní funkci reflexe) na pocity, které se s tvorbou analýzy pojily, a případně na konkrétní části, kde se studující cítil frustrován. Celkově tento modul naplňuje sedmý vzdělávací cíl kurzu (viz cíl \ref{7-cil}).
+Student má v tomto modulu za úkol provést vlastní analýzu dat, nemusí se ale přímo vázat na konkrétní příklady z ukázky. Naopak je motivován k hledání zajímavějších vztahů napříč daty a k experimentům nad funkcemi kontingenčních tabulek. Zároveň je od studenta znovu vyžadována zpětná vazba (která částečně plní funkci reflexe) na pocity, které se s tvorbou analýzy pojily, a případně na konkrétní části, kde se studující cítil frustrován. Celkově tento modul naplňuje sedmý vzdělávací cíl kurzu.
 
 ### Vizualizace a prezentace dat
 
 Závěrečná část procesu datové analytiky se týká vizualizace a prezentace dat. Tento modul je patrně nejrozsáhlejší, protože v sobě obsahuje jak základní teorii k tvorbě grafů, tak i praktické cvičení vztahující se k základním vizualizačním technikám. V první aktivitě je student seznámen s pojmem *dashboard*\footnote{Zde jsme akcentovali otázku týkající se různorodosti příjemců informací. To znamená, že by si měl být student při prezentaci dat vždy vědom toho, jak zkušení uživatelé tento výstup přijímají, a podle toho volit složitost daných vizualizací.} a jsou zde představeny základní typy grafů spolu s příklady otázek, na něž jednotlivé grafy typicky odpovídají.
 
-Na tento teoretický text přímo navazuje poslední demonstrační video, které představuje základní principy a možnosti vizualizace dat v našem kontextu. Důraz se v tomto případě klade i na interaktivitu výsledné vizualizace, tedy aby bylo možné data v rámci konečného *dashboardu* částečně měnit na základě nově položené otázky. I v tomto posledním praktickém úkolu je student pobídnut k tvorbě vlastního originálního řešení, předcházející video by mu mělo tak sloužit pouze jako inspirace a základní osnova. A stejně jako v minulém modulu je od něj vyžadována zpětná vazba týkající se silných a slabých stránek při tvorbě vizualizace. Tento předposlední obsahový modul splňuje osmí cíl kurzu (viz cíl \ref{8-cil}).
+Na tento teoretický text přímo navazuje poslední demonstrační video, které představuje základní principy a možnosti vizualizace dat v našem kontextu. Důraz se v tomto případě klade i na interaktivitu výsledné vizualizace, tedy aby bylo možné data v rámci konečného *dashboardu* částečně měnit na základě nově položené otázky. I v tomto posledním praktickém úkolu je student pobídnut k tvorbě vlastního originálního řešení, předcházející video by mu mělo tak sloužit pouze jako inspirace a základní osnova. A stejně jako v minulém modulu je od něj vyžadována zpětná vazba týkající se silných a slabých stránek při tvorbě vizualizace. Tento předposlední obsahový modul splňuje osmí cíl kurzu.
 
 ### Závěr kurzu
 
-Poslední modul si klade za cíl celkově shrnout obsah kurzu a nabídnout studentovi inspiraci pro případné navazující studium v kontextu jiných analytických nástrojů. Druhou podstatnou částí je závěrečný kvíz, který se už netýká žádného z témat spojených s datovou analytikou, ale zaměřuje na získání zpětné vazby ke kurzu. Prostřednictvím odpovědí z tohoto dotazníku můžeme dále případně modifikovat obsah, pozměnit formu úkolů, případně přidat další související témata. Tento poslední modul tak odpovídá poslednímu vzdělávacímu cíli (viz cíl \ref{9-cil}).
+Poslední modul si klade za cíl celkově shrnout obsah kurzu a nabídnout studentovi inspiraci pro případné navazující studium v kontextu jiných analytických nástrojů. Druhou podstatnou částí je závěrečný kvíz, který se už netýká žádného z témat spojených s datovou analytikou, ale zaměřuje na získání zpětné vazby ke kurzu. Prostřednictvím odpovědí z tohoto dotazníku můžeme dále případně modifikovat obsah, pozměnit formu úkolů, případně přidat další související témata. Tento poslední modul tak odpovídá poslednímu vzdělávacímu cíli.
