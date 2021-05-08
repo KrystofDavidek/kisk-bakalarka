@@ -70,6 +70,8 @@ V našem online kurzu využíváme výhradně těchto pět typů aktivit, které
 
 Pro úspěšný průchod celým kurzem je zapotřebí mít splněné všechny dílčí aktivity včetně kvízů a korektně odevzdané všechny praktické úkoly. Kurz byl navržen tak, aby byly všechny odevzdané úkoly zkontrolovány pověřenou osobou – chceme tak docílit k poskytnutí individuální zpětné vazby každému jednotlivému studentovi. 
 
+\clearpage
+
 ##  Moduly
 
 V poslední podkapitole této práce popíšeme jednotlivé obsahové bloky (dále jen moduly), které dělíme podle toho, jaký vzdělávací cíl splňují, a tedy zda spadají do teoreticky nebo prakticky zaměřené části kurzu\footnote{Prostřednictvím celkové stylizace kurzu směřujeme k co největší popularizaci tématu, proto jsou některé názvy jednotlivých obsahových bloků a aktivit pojaty méně formálním způsobem.}. Pro větší srozumitelnost přikládáme schéma jednotlivých modulů spolu s jejich zanořenými aktivitami podle toho, do jaké části kurzu náleží.
