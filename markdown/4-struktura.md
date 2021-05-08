@@ -74,6 +74,21 @@ Pro úspěšný průchod celým kurzem je zapotřebí mít splněné všechny d�
 
 V poslední podkapitole popíšeme jednotlivé obsahové bloky (dále jen moduly), které dělíme podle toho, jaký vzdělávací cíl splňují, a tedy zda spadají do teoreticky nebo prakticky zaměřené části kurzu\footnote{Prostřednictvím celkové stylizace kurzu směřujeme k co největší popularizaci tématu, proto jsou některé názvy jednotlivých obsahových bloků a aktivit pojaty méně formálním způsobem.}.
 
+\begin{figure}[hb!]   
+    \centering
+    \includegraphics[width=\textwidth]{schema-1}  
+    \caption{Schéma teoretické části}
+    \label{schema-1}
+\end{figure}
+
+\begin{figure}[hb!]   
+    \centering
+    \includegraphics[width=\textwidth]{schema-2}  
+    \caption{Schéma praktické části}
+    \label{schema-2}
+\end{figure}
+
+
 ### Úvod aneb co je to vlastně datová analytika
 
 První teoretický modul si klade za cíl uvést studenta do kontextu celého kurzu – představuje mu možnosti online prostředí, vysvětluje, jak probíhá průchod kurzem, a uvádí osnovu kurzu. Ještě před samotnou teorií týkající se úvodních témat datové analytiky je student seznámen se skutečností, že v druhé, praktické části kurzu, bude sám participovat na svém vlastním řešení, prostřednictvím kterého by si měl vyzkoušet základní techniky datové analytiky.
