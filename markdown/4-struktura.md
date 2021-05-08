@@ -10,36 +10,36 @@ Hlavní část kurzu je tvořena sedmi hlavními obsahovými bloky, z nichž se 
 
 Mimo tyto ústřední bloky e-learning na začátku obsahuje úvodní text, jehož cílem je studenta motivovat ke studiu a v co největší stručnosti popsat obsah celého kurzu. Zároveň je pod touto úvodní kartou umístěn malý ukazatel progresu s počtem splněných aktivit (viz další odstavec) spolu s podkartou *Užitečný tip*, která slouží v rámci ekosystému kurzů Digiskills k nasměrování na integrovaného chatbota (viz Obrázek \ref{digi-uvod}).
 
-\begin{figure}[h]   
-    \centering
-    \includegraphics[width=\textwidth]{digi-uvod}  
-    \caption{Úvodní obrazovka s představením kurzu spolu s ukazatelem progresu a s podkartou týkající se užitečného tipu.}
-    \label{digi-uvod}
-\end{figure}
-
 Základní jednotkou kurzu jsou již zmíněné aktivity, jež jsou vždy zanořeny do daného obsahového bloku (viz Obrázek \ref{digi-blok}). Těchto aktivit je v celém kurzu v současné chvíli 23 a jsou do jednotlivých bloků logicky uspořádány dle následující šablony:
 
  - úvodní aktivita, která představuje studentovi dané téma a kontextualizuje jej v rámci aktivit minulých a následujících;
  - 1–3 aktivity zpracovávající konkrétní část tématu;
  - 1–2 závěrečné aktivity, jež shrnují dané téma a pobízí studenta k vlastní práci ať už prostřednictvím kvízů či praktických úkolů (viz Obrázek \ref{digi-aktivity}).
 
-\begin{figure}[h]   
+\begin{figure}[hb!]   
+    \centering
+    \includegraphics[width=\textwidth]{digi-uvod}  
+    \caption{Úvodní obrazovka s~představením kurzu spolu s~ukazatelem progresu a~s~podkartou týkající se užitečného tipu.}
+    \label{digi-uvod}
+\end{figure}
+
+\begin{figure}[hb!]   
     \centering
     \includegraphics[width=\textwidth]{digi-bloky}  
     \caption{Nerozbalený výčet všech obsahových bloků}
     \label{digi-bloky}
 \end{figure}
 
-\begin{figure}[h]   
+\begin{figure}[hb!]   
     \centering
     \includegraphics[width=\textwidth]{digi-blok}  
-    \caption{Vnořené aktivity vztahující se ke obsahovému bloku Vizualizace a prezentace dat}
+    \caption{Vnořené aktivity vztahující se ke obsahovému bloku Vizualizace a~prezentace dat}
     \label{digi-blok}
 \end{figure}
 
-\begin{figure}[h]   
+\begin{figure}[hb!]   
     \centering
-    \includegraphics[width=\textwidth]{digi-aktivity}  
+    \includegraphics[width=1.1\textwidth]{digi-aktivity}  
     \caption{Závěrečná aktivita, která obsahuje zadání praktického úkolu}
     \label{digi-aktivity}
 \end{figure}
