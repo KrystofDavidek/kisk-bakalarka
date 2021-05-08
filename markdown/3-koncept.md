@@ -26,6 +26,8 @@ Níže (viz Tabulka \ref{tab-cile}) uvádíme seznam vzdělávacích cílů kurz
 
 Jak je z uvedené tabulky patrné, v kontextu revidované Bloomovy taxonomie se pohybujeme v prvních čtyřech kategoriích kognitivních procesů – *pamatovat*, *porozumět*, *aplikovat* a *analyzovat*. Hlavní důvod pro tohle rozhodnutí je vybraná cílová skupina, kterou jsou primárně úplní začátečníci, jež si pod oblastí datové analytiky nic nepředstaví nebo o ní mají pouze zdánlivou představu. Na druhou stranu spadá většina vzdělávacích cílů pod třetí kognitivní proces *aplikovat*, protože hlavním požadavkem na kurz ze strany Digiskills měl být přesah do praktických úrovní datové analytiky.
 
+\clearpage
+
 ## Kompetence
 
 Za účelem začlenění kurzu do některého z kompetenčních rámců, můžeme využít výše popsané cíle, které jsme představili v minulé podkapitole. Odhlédneme-li od těch částí obsahu, které partikulárně vychází z výsledků přehledové studie online kurzů, můžeme náš kurz zakotvit primárně do dvou kompetenčních rámců.
